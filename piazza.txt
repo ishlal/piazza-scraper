@@ -1,0 +1,524 @@
+<p>Will lecture recordings be available this semester? I was interested in replaying some specific notes from this morning. </p>
+<p>Hi everyone, </p>
+<p></p>
+<p>Some students have reported they are unable to fill in the bubbles for the HW drops policy quiz question. Please carefully read the information in the question, but don&#39;t worry about filling in the bubbles if Gradescope won&#39;t let you. </p>
+<p></p>
+<p>Sorry for any confusion!</p>
+<p>Sorry I didn&#39;t find the assignment on my gradescope. Where can I find it?</p>
+<p>Sorry I didn&#39;t find the assignment on my gradescope. Where can I find it?</p>
+<p>Have you joined the class on gradescope? If not, you can join it with the entry code <strong>E7VVGZ</strong></p>
+<p>I joined but there is no assignment in it. Who do I need to contact?</p>
+<p>Please come to office hours, and we will try to help you out there.</p>
+response time: 0:02:01
+
+
+
+<p>Dear teacher, I would like to know where there is a specific topic for the first assignment. There is only a page for assignment submission in gradescope.</p>
+<p>Dear teacher, I would like to know where there is a specific topic for the first assignment. There is only a page for assignment submission in gradescope.</p>
+<p>If you are looking for information on content that may be helpful in solving the problems, check out the lecture notes found here: https://www.cis.upenn.edu/~cis1600/current/lectures.html</p>
+response time: 0:14:58
+
+
+
+<p>When filling out the truth table, do we have to show the process of how we got to either T or F or can we just write in T or F?</p>
+<p>When filling out the truth table, do we have to show the process of how we got to either T or F or can we just write in T or F?</p>
+<p>you can just write in T or F</p>
+response time: 0:00:55
+
+
+
+<p>Hi! </p>
+<p></p>
+<p>At the top of the document it says that we should show all work. Question 1 specifies no work is needed. However, for question 2 I wasn&#39;t too sure how to show work as its a table with values within the table. Therefore, I was slightly confused on how to show work. Could you please provide some insight?</p>
+<p></p>
+<p>Thank you!</p>
+<p>Hi! </p>
+<p></p>
+<p>At the top of the document it says that we should show all work. Question 1 specifies no work is needed. However, for question 2 I wasn&#39;t too sure how to show work as its a table with values within the table. Therefore, I was slightly confused on how to show work. Could you please provide some insight?</p>
+<p></p>
+<p>Thank you!</p>
+<p>no need to show work for question 2. You can just fill in the values in the truth table.</p>
+response time: 0:01:16
+
+
+
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F32265e6c6aa4a80a7910d982a70aaa71177824a819082f15091f64bfabe31573%2Fimage.png" alt="image.png" /></p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F32265e6c6aa4a80a7910d982a70aaa71177824a819082f15091f64bfabe31573%2Fimage.png" alt="image.png" /></p>
+<p>The actual text should be outside of math mode. Here is a simple analogous example:</p>
+<p></p>
+<pre>
+Thus, $p \land q$ is true.</pre>
+response time: 0:00:53
+
+
+
+<p dir="ltr">Hi All,</p>
+<p> </p>
+<p dir="ltr">We have released homework 1H. It will be due at <strong>11:59pm on Monday. </strong></p>
+<p> </p>
+<p dir="ltr">Homeworks can be found under the Homework tab on cis1600.com.</p>
+<p dir="ltr"> </p>
+<p dir="ltr">Finally, quick reminder that for this and all future homework assignments you are <b>REQUIRED</b> to typeset the homework using LaTeX. If you have not already watched it, I highly recommend watching <a href="https://www.youtube.com/watch?v=vmQuOprb7Pc" target="_blank" rel="noopener noreferrer">our TA Ishaan’s LaTeX introduction video</a>, and we will also be discussing a little bit more about LaTeX in the first recitation.</p>
+<p dir="ltr"></p>
+<p dir="ltr"><em>The initial LaTeX template posted to the <a href="https://www.cis.upenn.edu/~cis1600/current/homework.html" target="_blank" rel="noopener noreferrer">website</a> did not have a space to put your recitation number. The updated template now includes this information.</em></p>
+<p dir="ltr"> </p>
+<p dir="ltr"><strong>PLEASE DO NOT ASK YOUR QUESTIONS IN THE FOLLOW-UP DISCUSSION OF THIS POST. INSTEAD, PLEASE MAKE A SEPARATE &#34;NEW POST&#34;.</strong></p>
+<p dir="ltr"> </p>
+<p dir="ltr">Please read this FAQ first to see if your question. has already been answered. As questions come up in Piazza, this FAQ will be updated.</p>
+<p dir="ltr"></p>
+<p dir="ltr"><strong>General:</strong> Leaving answers un-simplified is okay. e.g. You can write $$8 \times 7 \times 6$$, or $$336$$.</p>
+<p dir="ltr"> </p>
+<p dir="ltr"><strong>Q1:</strong></p>
+<ul><li dir="ltr">Avoid trivial set-builder notation @50</li></ul>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"><strong>Q2: </strong></p>
+<ul><li dir="ltr">Two earrings within a pair are the same</li></ul>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"><strong>Q3:</strong></p>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"><strong>Q4:</strong></p>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"><strong>Q5:</strong></p>
+<ul><li dir="ltr">Each noodle is of different length.</li><li dir="ltr">@17_f6 - Two noodles of the same length can be subtracted, and in this case, replace them with a noodle of length 0.</li></ul>
+<p dir="ltr"><strong>Q6: </strong></p>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"><strong>Q7: </strong></p>
+<p dir="ltr"><strong> </strong></p>
+<p dir="ltr"></p>
+<p>just a question from lecture. if the empty set is always an element of a set, then why is it not counted in the cardinality of the set? like |{1,2,3}| = 3, not 4 because you don&#39;t count the empty set....</p>
+<p>The empty set is <strong>not </strong>always an element of a set. For example, $$\emptyset \notin \{1, 2, 3\}$$ but $$\emptyset \in \{1, \emptyset\}$$. Perhaps you meant to be speaking about subsets (which is a bit different than just elements)!</p>
+<p>Is there recitation this week?</p>
+<p>yes</p>
+<p>For problem 2a on the homework, are the 2 earrings in an &#34;earring pair&#34; necessarily identical?</p>
+<p>Yes. The two earrings within a pair are identical.</p>
+<p>In problem 1a iii) do y and z have to be different integers, or can they have the same value?</p>
+<p>they can be the same!</p>
+<p>In problem 1a iii) do y and z have to be different integers, or can they have the same value?</p>
+<p>for the same problem, is zero in the set of positive integers?</p>
+<p>In problem 1a iii) do y and z have to be different integers, or can they have the same value?</p>
+No
+<p>For problem 2, should the 7 grains of pasta in one earring be unique to each other or can there exist for example 2 linguine in one earing? Thanks.</p>
+<p>they need not be unique. So an earring can have 2 linguini</p>
+<p>for question 5, can two noodles of the same length be subtracted such that no new noodle is created (or noodle of length 0)</p>
+<p>but can you use a noodle that has been created afterward?</p>
+<p>for question 5, can two noodles of the same length be subtracted such that no new noodle is created (or noodle of length 0)</p>
+<p>Yes, two noodles of the same length can be subtracted. In this case, we would remove those noodles and replace them with one noodle of length 0.</p>
+<p>for question 5, can two noodles of the same length be subtracted such that no new noodle is created (or noodle of length 0)</p>
+<p>i just want to clarify exactly what the question is asking. Is it asking whether Saurabh-violi can be sure that the final noodle will always be length 1 regardless of how the noodles are picked and subtracted?</p>
+<p>for question 5, can two noodles of the same length be subtracted such that no new noodle is created (or noodle of length 0)</p>
+<p>Does a noodle of length 0 still count as a noodle?</p>
+<p>Can we leave our answers as a number to an exponent (say $$2^{17}$$), or do we need to calculate the exact numerical solution?</p>
+<p>no need to reduce your answers to the exact value. So something like $$2^{17}$$ would be fine.</p>
+<p>Can 1) iv) have multiple correct answers?</p>
+<p>No. 1a) iv) has only one correct answer.</p>
+<p>Are office hours in-person today?</p>
+<p>OH will be held on zoom today.</p>
+<p>For question 1(a), should we list the elements of the sets using set notation? </p>
+<p>yeah</p>
+<p>Is zero considered a positive integer?</p>
+<p>no.</p>
+<p>Just to clarify, for question 2, the same type of pasta can be used multiple times to make an earring, right? For example, you can do penne-penne-penne. </p>
+<p>yes</p>
+<p>Is question 5 asking if Saurabh will always end up with a single noodle of length 1, or asking if it is possible for Saurabh to end up with a noodle of length 1?</p>
+<p>It is asking if it is possible for Saurabh to end up with a noodle of length 1</p>
+<p>In question 2(a), for each pair of earrings, do both earrings have to be the same or can they be different from each other?</p>
+<p>both earrings are the same within a pair.</p>
+In question 4, does it mean that the colors can repeat for the vertical stripes but not the horizontal ones?
+<p>Colors are allowed to repeat. As shown in the diagram, there are two black horizontal stripes (hence, in this case, the color black is repeated), and there are two red vertical stripes.</p>
+<p>how do i type curly braces in overleaf</p>
+<pre>
+\{ stuff inside curly braces \}</pre>
+For Q2, does F-P-P equal P-P-F?
+<p>No. These would be considered different.</p>
+<p>How can I type these i ii iii iiii in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F76f3517ab03f9e17ff79873a2713802664f786266c7b3153f0348070ab1e1a83%2Fimage.png" alt="image.png" /></p>
+<p>You get those from a &#34;nested enumeration&#34;. So something like this:</p>
+<p></p>
+<pre>
+\begin{enumerate}
+	\item 	this is a
+	\begin{enumerate}
+		\item 	this is i
+		\item 	this is ii
+		\item 	this is iii
+		\item   this is iv
+	\end{enumerate}
+\end{enumerate}</pre>
+<p>For 1a, should we interpret the &#34;members of the set&#34; as the elements in set X or should write out the set that X is equivalent to, including the braces?</p>
+<p>you can include the braces.</p>
+<p>In Question 2a do we have unlimited supply of all 350 types of pastas or do we have a fixed number of quantity of all types to be used to make earrings? <br />Like is it possible to create a pair of earring like all 7 grains of Penne, then another pair of earrling with 6 grains of Penne and one Fettuccine and so on, so we can use Penne as many times as we want right?</p>
+Correct
+<p>what exactly does question 7 mean by how she should organize testing? Are we trying to minimize the amount of time it takes to identify the fault fork.... or save the greatest number of people&#39;s fingers? </p>
+<p>You need to come up with a method to ensure that you have found the faulty fork. Keep in mind that if someone uses the faulty fork, they will lose their fingers at exactly 8:59.</p>
+<p>what exactly does question 7 mean by how she should organize testing? Are we trying to minimize the amount of time it takes to identify the fault fork.... or save the greatest number of people&#39;s fingers? </p>
+<p>sure, but you still need to come up with a method to assure that you have found the faulty fork.</p>
+<p>what exactly does question 7 mean by how she should organize testing? Are we trying to minimize the amount of time it takes to identify the fault fork.... or save the greatest number of people&#39;s fingers? </p>
+yeah
+<p>what exactly does question 7 mean by how she should organize testing? Are we trying to minimize the amount of time it takes to identify the fault fork.... or save the greatest number of people&#39;s fingers? </p>
+<md>And obviously you can't discard all the forks to get rid of the faulty one</md>
+<p>How could we write the vertical line after x in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2Fc7048b31895616e27adc5405ea664a5a82689c58e190bb9d54e14f4cadc7924c%2Fimage.png" alt="image.png" /></p>
+<pre>
+\mid</pre>
+<p>How could we write the vertical line after x in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2Fc7048b31895616e27adc5405ea664a5a82689c58e190bb9d54e14f4cadc7924c%2Fimage.png" alt="image.png" /></p>
+<md>alternatively, `\ |\ `, (slash space verticalbar slash space. $$x\ |\ x$$</md>
+<p>For 2 (b) (c) (d), is it asking us the number of unique earring pairs or simply earring pairs no matter unique or not?</p>
+<p>Earrings within a pair are identical to each other. Does this help?</p>
+<p></p>
+<p>For 2 (b) (c) (d), is it asking us the number of unique earring pairs or simply earring pairs no matter unique or not?</p>
+<p>I mean (a) asks &#34;How many UNIQUE earring pairs can the Master of Linguine create?&#34; but the other questions do not mention &#34;UNIQUE.&#34; So do we have to find out the unique pairs or simply pairs both unique and not?</p>
+<p>For 2 (b) (c) (d), is it asking us the number of unique earring pairs or simply earring pairs no matter unique or not?</p>
+<p>Your final answer for all questions should be the number of unique earring pairs for the given question.</p>
+<p>For 2 (b) (c) (d), is it asking us the number of unique earring pairs or simply earring pairs no matter unique or not?</p>
+<p>Oh I see. Thank you very much!</p>
+<p>How could we type the Q1, Q2... in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F6cbfb5c0bd973f5592970491f6d9b5b598be1bbd44b582402cb645d2980ceed4%2Fimage.png" alt="image.png" /></p>
+<p>You probably don&#39;t have to do this. Our template already gives this to you!</p>
+<p>How could we type the Q1, Q2... in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F6cbfb5c0bd973f5592970491f6d9b5b598be1bbd44b582402cb645d2980ceed4%2Fimage.png" alt="image.png" /></p>
+<p>But there aren&#39;t enough for 1H hw lol. We get 7 questions to answer.</p>
+<p>How could we type the Q1, Q2... in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F6cbfb5c0bd973f5592970491f6d9b5b598be1bbd44b582402cb645d2980ceed4%2Fimage.png" alt="image.png" /></p>
+<p>Make sure you download the 1H template from the website. You may have to scroll down on the pdf on overleaf because each question is on a different page.</p>
+<p>How could we type the Q1, Q2... in Latex?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7ga3way2da7hz%2F6cbfb5c0bd973f5592970491f6d9b5b598be1bbd44b582402cb645d2980ceed4%2Fimage.png" alt="image.png" /></p>
+<p>Okay, I get it. Thank you so much!</p>
+<p>For question 6. when it says that for each, the dishes next to it are a different type, does that mean if the dish is a meat dish, its neighborings have to be veggie dishes and vice versa?</p>
+<md>That's true.</md>
+<p>Can you use summations in set builder notation?</p>
+yeah
+<p>For question 5, what happens to the new noodle that Saurabh makes after selecting two random noodles? Does he use this new noodle and selects another random noodle and creates another noodle with the difference between the two?</p>
+The new noodle gets added to the group of noodles. And then he chooses two noodles from the group (one of which COULD be the new noodle but doesn’t have to be)
+<p>In which office are the OH today?</p>
+I think they are online today
+<p>For question 4 what does &#34;any two stripes that have the same color cannot share a long edge&#34; mean? I see red can be repeated on the vertical stripes and black was repeated on the bottom stripes. </p>
+<p>So the same color cannot be next to each other in the bottom stripes and they cannot be next to each other in the top stripes?</p>
+<p>In the answer to the first question of this post (<a href="/class/l6vqf2f5p8e6c1/post/17_f29" target="_blank" rel="noopener noreferrer">https://piazza.com/class/l6vqf2f5p8e6c1/post/17_f29)</a>, the TA says &#34;If you wish to prove the statement wrong, though, <strong>you have to consider all “examples”</strong>&#34;. What does &#34;consider all examples&#34; exactly mean? What are the examples and exactly how many examples we will have to consider?</p>
+<p>I&#39;m not exactly sure what they mean by &#34;all examples&#34;, but if I had to venture a guess, they were trying to say that in order to disprove the statement, you would have to consider all possible noodle manipulations that Saurabh can do (i.e. every sequence of choices of pairs of noodles he can make) and show that none of them result in a noodle of length 1. </p>
+<p></p>
+<p>Should we assume commonly used theorems as axioms or should they be stated as theorems? Are we allowed to use theorems in our proofs?</p>
+If we have seen the theorem being used in class, recitation or a previous HW, then you can cite it. Else, you should be proving said theorem/axiom (not just stating it)
+<p>For question 6 is there a specific dish (meat or vegetable) that Brian wants to end his arrangement on? </p>
+<p>it doesn&#39;t make sense to end a circle</p>
+<p>Can all of question 2 be solved using the multiplicative rule used in class, or do some require other methods used in combinatorics, like casework?</p>
+<p>Just to clarify, I am generally asking about any methods not discussed in class, casework is just one specific method.</p>
+<p>Can all of question 2 be solved using the multiplicative rule used in class, or do some require other methods used in combinatorics, like casework?</p>
+<p>But can the problems be solved without it?</p>
+<p>Can all of question 2 be solved using the multiplicative rule used in class, or do some require other methods used in combinatorics, like casework?</p>
+All problems can be solved using material covered in lecture
+<p>For set builder notation, can we use words instead of the notation? For example, {x| x is an odd integer and a multiple of 7 that is less than 100}?</p>
+sure
+<p>Do I have to prove the associative property for addition or can I assume it as an axiom?</p>
+You can assume this
+<p>In question 6 do we know the total number of dishes on the table?</p>
+No. That is what you are trying to solve for.
+<p>In question 6, what is the importance of there needing to be at least 1 meat dish and 1 veggie dish? Isn&#39;t it implied that a singular dish can&#39;t be a circle and that for there to be multiple meat dishes there needs to be multiple veggie dishes so the neighboring dishes are different types?</p>
+The “importance” is somewhat subjective, I suppose. However, it is a critical piece of information for the problem. Think of it as a “constraint” on the set of all possible arrangements. How you choose to use this information is something we want you to think about, and something to argue in your solution/proof.
+<p>In question 6, what is the importance of there needing to be at least 1 meat dish and 1 veggie dish? Isn&#39;t it implied that a singular dish can&#39;t be a circle and that for there to be multiple meat dishes there needs to be multiple veggie dishes so the neighboring dishes are different types?</p>
+<p>Without the &#34;at least&#34; information, wouldn&#39;t the set all of arrangments still be the same? You can&#39;t have all meat or all veggie. What do you mean by contraint? </p>
+<p>In question 6, what is the importance of there needing to be at least 1 meat dish and 1 veggie dish? Isn&#39;t it implied that a singular dish can&#39;t be a circle and that for there to be multiple meat dishes there needs to be multiple veggie dishes so the neighboring dishes are different types?</p>
+Well the information about neighboring dishes being different can be considered as another “constraint”. What I mean by “constraint” is that we are limiting our view of all possible arrangements of dishes in a circle (i.e. we are looking at a “subset” of all possible arrangements ignoring the constraints)<p></p>
+Can we use combinations in Q7 instead of the multiplication rule? Will I lose points?
+And fully logically and mathematically correct solution will receive full credit no matter which techniques you use.
+<p>How brief should we be with our justifications - should we err on the side of a thorough explanation or should we aim for a more concise explanation.</p>
+<p>Giving advice on the length of justifications is tough. My general suggestion is to write as much to write enough to ensure that there are no large jumps in logic/mathematics in your solution. I guess the definition of &#34;large&#34; is different from person to person, so another way to approach this is that if you ever ask yourself the question &#34;should I explain this?&#34;, you should always assume the answer is yes. </p>
+<p></p>
+<p>Remember that any fully correct solution both mathematically and logically will receive full credit. So however long your proof is, as long as you fulfill the above, you should be good to go.</p>
+<p>Is there an efficient timeframe needed to answer Q7? Or, in other words, would it be okay for the solution be realistically very time-consuming? </p>
+<p>It differs from person to person. If you are finding the problem to be too challenging or time-consuming, it may be worthwhile to pay a visit to office hours to get some assistance from a TA.</p>
+<p>Is there an efficient timeframe needed to answer Q7? Or, in other words, would it be okay for the solution be realistically very time-consuming? </p>
+<p>To clarify what I meant - would it be okay for the solution to find the faulty fork to be very time-consuming for the TA&#39;s? </p>
+<p>Is there an efficient timeframe needed to answer Q7? Or, in other words, would it be okay for the solution be realistically very time-consuming? </p>
+<p>oh whoops, my apologies for the incorrect interpretation! But yes, it is totally okay for the solution to be time consuming, as long as it guarantees that they find the faulty fork.</p>
+<p>Are calculators allowed for the homework?</p>
+No
+<p>Are calculators allowed for the homework?</p>
+<p>Should we leave computations unsimplified if they are infeasible to do by hand, then?</p>
+<p>Are calculators allowed for the homework?</p>
+Yes
+<p>For question 1d, I am a little confused on the wording. Is the students all wanting to learn how to make pasta also sufficient for &#34;the CIS 1600 TAs do not all make ravioli&#34; or is that outside of the sufficiency claim. </p>
+<p>For question 1d, I am a little confused on the wording. Is the students all wanting to learn how to make pasta also sufficient for &#34;the CIS 1600 TAs do not all make ravioli&#34; or is that outside of the sufficiency claim. </p>
+It is not outside the sufficiency claim
+response time: 0:02:03
+
+
+
+<p>When the questions ask us to count the number of unique earring pairs, are earrings allowed to differ in pattern within the same pair, and if so, is there a distinction between left and right earrings?</p>
+<p>When the questions ask us to count the number of unique earring pairs, are earrings allowed to differ in pattern within the same pair, and if so, is there a distinction between left and right earrings?</p>
+No. The left and right earring are the same pattern within each pair.
+response time: 1:28:06
+
+
+
+<p>The wording of the question says: &#34;scissors until a winner emerges to decide who gets to enter the restaurant first. The winner of the match can then enter the restaurant,&#34;</p>
+<p></p>
+<p>Does this mean that the winner will go into the restaurant and therefore isn&#39;t &#39;deciding&#39; per-say but is automatically assumed to be going inside the restaurant?</p>
+<p>The wording of the question says: &#34;scissors until a winner emerges to decide who gets to enter the restaurant first. The winner of the match can then enter the restaurant,&#34;</p>
+<p></p>
+<p>Does this mean that the winner will go into the restaurant and therefore isn&#39;t &#39;deciding&#39; per-say but is automatically assumed to be going inside the restaurant?</p>
+Yeah. The winner automatically goes into the restaurant 
+response time: 1:19:56
+
+
+
+<p>Among the 1600 noodles, is each noodle of different integer length? Also if two noodles are of the same length, is Saurabh-violi allowed to pick them to throw away since they do not have a positive difference?</p>
+<p>Among the 1600 noodles, is each noodle of different integer length? Also if two noodles are of the same length, is Saurabh-violi allowed to pick them to throw away since they do not have a positive difference?</p>
+Yes. Each noodle is a different integer length.
+Can we make this post public for others to see?
+I think we have to do it on our end. If we get your permission, we will handle it for you!
+Can we make this post public for others to see?
+<p>Yes, I think it would be a good idea to make the post public.</p>
+response time: -1 day, 21:26:56
+
+
+
+<p>for example can I use this <a href="https://www.tablesgenerator.com/" target="_blank" rel="noopener noreferrer">https://www.tablesgenerator.com/#</a> website?</p>
+<p></p>
+<p></p>
+<p>When using the homework LaTeX template, am I allowed to insert page breaks between the question items to make paging easier during submission?</p>
+<p>When using the homework LaTeX template, am I allowed to insert page breaks between the question items to make paging easier during submission?</p>
+<p>sure</p>
+response time: 0:03:09
+
+
+
+<p>Would I have to prove that the sum of n consecutive integers is $$\frac{n(n+1)}{2}$$ to use such a formula?</p>
+<p>Hi, just asking for clarification, but is there recitation this week?</p>
+<p>To clarify,</p>
+<p></p>
+<p>1) The 7 grains are 7 out of the 350 correct?</p>
+<p>2) Can there be repetitions of the pasta? (i.e. are there 350 pieces or is it like 350 grains so it can be 7 of the same kinds of pasta counts as 1 unique earring pair</p>
+<p>To clarify,</p>
+<p></p>
+<p>1) The 7 grains are 7 out of the 350 correct?</p>
+<p>2) Can there be repetitions of the pasta? (i.e. are there 350 pieces or is it like 350 grains so it can be 7 of the same kinds of pasta counts as 1 unique earring pair</p>
+<p>1) Yes.</p>
+<p>2) Yes, there can be repetitions.</p>
+response time: 0:02:37
+
+
+
+<p>what do you mean by set builder notation in 1b?</p>
+<p>what do you mean by set builder notation in 1b?</p>
+<p>Examples of set builder notation are the sets in 1a. So your answers to 1b should be of similar form to the sets provided to you in the question of 1a.</p>
+response time: -1 day, 15:56:05
+
+
+
+<p>Are we allowed to use induction to justify our answers to the problems on HW1H, even though we haven&#39;t coverd induction yet in class?</p>
+<p>Are we allowed to use induction to justify our answers to the problems on HW1H, even though we haven&#39;t coverd induction yet in class?</p>
+<p>you must prove anything that you choose to use that was not covered in class. So that would mean you would have to prove induction (which doesn&#39;t sound fun). So I would encourage avoiding induction for this problem set.</p>
+response time: 0:00:47
+
+
+
+
+
+<p>yes</p>
+response time: 0:00:11
+
+
+
+<p>Hi everyone! We&#39;re aware that with the traveling associated with the start of the semester that many students across the university are contracting COVID-19. Of course, we strongly encourage you to stay home from lectures and recitations when you are symptomatic, and would like to make it as easy as possible for you to do so.</p>
+<p></p>
+<p>For lectures, we are making course lecture notes available after each lecture on the course website (cis1600.com) under the `Lectures` tab. We encourage you to go through these at your own pace if you cannot attend, and to visit office hours with any questions that you may have when you are feeling better.</p>
+<p></p>
+<p>For recitations, we are setting up a way for you to make up attendance credit for when you are ill. Please email your recitation TAs and the course account before your recitation letting them know that you aren&#39;t feeling well, and please type up and email solutions to the recitation problems to your recitation TAs and the course account before 11:59PM on Friday night (as that&#39;s when we&#39;ll be posting solutions). Moreover, we just wanted to remind students that they have one free recitation attendance drop. </p>
+<p></p>
+<p>For this week, though, we are extending this deadline to 11:59PM Sunday due to the late notice. If you have emailed us already, you can just email your recitation TAs and the course email account your solutions and you&#39;ll be good to go!!</p>
+<p></p>
+<p>Lastly, we will not be giving extensions for HW due to illness, but remember that you have two H and two T drops throughout the semester. </p>
+<p></p>
+<p>If you have any questions feel free to email us at cis1600@seas.upenn.edu</p>
+<p>hi im just a little bit confused on the difference between the set &#39;belongs to&#39; another set and the set is a &#39;subset&#39; of another set</p>
+<p></p>
+<p>so the &#39;belongs to&#39; for a set is only referring to one element and whether that element is present in the set,</p>
+<p></p>
+<p>while for the &#39;subset&#39; part it is when you consider a whole set and see if that whole set is within another set?</p>
+<p></p>
+<p></p>
+<p>hi im just a little bit confused on the difference between the set &#39;belongs to&#39; another set and the set is a &#39;subset&#39; of another set</p>
+<p></p>
+<p>so the &#39;belongs to&#39; for a set is only referring to one element and whether that element is present in the set,</p>
+<p></p>
+<p>while for the &#39;subset&#39; part it is when you consider a whole set and see if that whole set is within another set?</p>
+<p></p>
+<p></p>
+<p>Your definition for &#34;belongs to&#34; is correct.</p>
+<p></p>
+<p>One way of thinking about &#34;subset&#34; is &#34;A is a subset of B if every element of A is also an element of B&#34;. So for example, if $$A = \{1, 2\}$$ and $$B = \{1, 2, 3\}$$, then $$A \subseteq B$$, because every element of A is also an element of B. But if $$A = \{1, 4\}$$ and $$B = \{1, 2, 3\}$$ then $$A \nsubseteq B$$</p>
+<p>ok that makes sense, i know for the set itself order does not matter, so for something to be considered a subset that order does not matter either as long as the elements are in the whole set</p>
+<p>correct. So in my example, we can say $$\{1, 2\} \subseteq \{1, 2, 3\}$$ but it is also true that $$\{2, 1\} \subseteq \{1, 2, 3\}$$</p>
+response time: -1 day, 23:26:54
+
+
+
+<p>for 1a iii can x y and z be the same number</p>
+<p>for 1a iii can x y and z be the same number</p>
+<p>yeah</p>
+response time: -1 day, 23:58:30
+
+
+
+<p>In Problem 2, when it asks &#34;how many unique earring <strong>pairs,</strong>&#34; do the two earrings in the pair have to be the same, or can the two earrings be different?</p>
+<p>In Problem 2, when it asks &#34;how many unique earring <strong>pairs,</strong>&#34; do the two earrings in the pair have to be the same, or can the two earrings be different?</p>
+<p>The two earrings within the pair are the same.</p>
+response time: 0:00:19
+
+
+
+<p>Hello,</p>
+<p>I saw in the email about covid policies that separate recitation problems were mentioned. Were we supposed to be sent them to complete before the recitation or do we get them at the recitation and work on them there? If it&#39;s the former, could I get assistance on whom I should contact for the recitation problems as I haven&#39;t gotten anything? Thank you!</p>
+<p>How many forks does Ria-tini need at the end? Does she want to pick out exactly the one faulty fork? Or does she just need at least one working fork?</p>
+<p></p>
+<p>For example, if at 8:59 I have some TA whose fingers all fall off, can I just throw away all the forks that TA ate with and say I&#39;m done?</p>
+<p>How many forks does Ria-tini need at the end? Does she want to pick out exactly the one faulty fork? Or does she just need at least one working fork?</p>
+<p></p>
+<p>For example, if at 8:59 I have some TA whose fingers all fall off, can I just throw away all the forks that TA ate with and say I&#39;m done?</p>
+<p>You can just think of it as that she needs to detect the faulty fork at that time.</p>
+response time: 1:27:13
+
+
+
+<p>Removed</p>
+<p>Sorry if you are seeing this again but I think my question got lost in the FAQ. Can we use summation as a condition for set builder notation?</p>
+<p>Hello course staff!</p>
+<p></p>
+<p>I hope you are well. I am very on the policy for office hours right now. No TA was in Skirkanch 114, but when I joined the Office Hours queue virtually, my question was denied. Where should I go for office hours today?</p>
+<p></p>
+<p></p>
+Would I need to write a proof for even &#43; even = even, odd &#43; odd = even, odd &#43; even = odd, etc. or can I treat those like a theorem?
+<p>I don&#39;t have a specific question about the homework, theres just two problems I have only a vague idea how to do. Should I still go to office hours and ask for help? Or is this something I need to figure out on my own and I can return with more focused questions? </p>
+<p>This will be a running document of statistics. It will be updated as we grade assignments.</p>
+<p></p>
+<table border="1" cellspacing="0" cellpadding="6px" width="446" height="84"><tbody><tr><td>
+<p>Homework #</p>
+</td><td>Median</td><td>Mean</td><td>Standard Deviation</td></tr><tr><td>1T</td><td>27.0</td><td>
+<div>
+<div>25.61</div>
+</div>
+</td><td>4.72</td></tr><tr><td>1H</td><td>61</td><td>
+<div>
+<div>57.78</div>
+</div>
+</td><td>10.07</td></tr><tr><td>2T</td><td>28</td><td>
+<div>
+<div>26.05</div>
+</div>
+</td><td>5.04</td></tr><tr><td>2H</td><td>52</td><td>
+<div>
+<div>49.12</div>
+</div>
+</td><td>14.16</td></tr><tr><td>3T</td><td>26</td><td>24.81</td><td>4.59</td></tr><tr><td>3H</td><td>58</td><td>54.18</td><td>13.77</td></tr><tr><td>4T</td><td>28</td><td>25.42</td><td>5.57</td></tr><tr><td>4H</td><td>53</td><td>50.74</td><td>12.6</td></tr><tr><td>5T</td><td>27</td><td>24.86</td><td>5.38</td></tr><tr><td>5H</td><td>58</td><td>55</td><td>12.06</td></tr><tr><td>6T</td><td>26</td><td>24.82</td><td>5.32</td></tr><tr><td>7H</td><td>58</td><td>55.34</td><td>10.34</td></tr><tr><td>8H</td><td>57</td><td>52.78</td><td>14.4</td></tr><tr><td>9T</td><td>26</td><td>24.5</td><td>5.07</td></tr></tbody></table>
+<p></p>
+<p>#pin</p>
+<p>HW 1T grades have been published on Gradescope. Regrade requests for all homework are due a week after grades are published. (HW 1T regrade requests are due next Friday, 9/09 at 5 PM ET.)</p>
+<p></p>
+<p><strong>Important</strong>: If you have a regrade, please get it “endorsed” by a TA at office hours before submitting a regrade request through Gradescope. To submit a regrade on Gradescope, select the question you&#39;d like a regrade on and click Request Regrade in the bottom right:</p>
+<p></p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fjqzrec0dbz24vc%2Ff2ce175c04578ab7e9d06e62401b7f136c6f91f08cfaab056902d6f0d661cfac%2Fimage.png" alt="image.png" width="943" height="33" /></p>
+<p></p>
+<p>Regrades that are not run by a TA will not be considered. <strong>Include the name of the TA who endorsed it in your regrade comment</strong> on Gradescope. Regrade endorsements must be received from a TA at office hours or after recitation. Regrade requests will not be endorsed over Piazza. Any TA can endorse your request.</p>
+<p></p>
+<p>Statistics will be posted in @43.</p>
+<p></p>
+<p>Also, if you just joined the course and have not done so already, please complete the Policies Quiz ASAP on Gradescope.</p>
+<p></p>
+<p></p>
+<p>Would 1 be a prime number? I would hate to get the question wrong on a technicality.</p>
+<p>Would 1 be a prime number? I would hate to get the question wrong on a technicality.</p>
+It’s not prime
+response time: 0:04:18
+
+
+
+<p>For the purposes of this class, is 0 considered a positive integer? </p>
+<p>For the purposes of this class, is 0 considered a positive integer? </p>
+0 is non-positive and non-negative
+<p>Can we consider 0 to be part of the natural numbers?</p>
+<p>Yes. In this class, $$0 \in \mathbb{N}$$</p>
+response time: 0:02:02
+
+
+
+<p>how to you make a new line in latex</p>
+<p>how to you make a new line in latex</p>
+\\
+response time: -1 day, 23:14:36
+
+
+
+Can I answer in the form of something like“{n&#43;1|n belongs to {1,3,5,7,11}}” which is in the lecture notes or would I have to write something like “for all n that is a positive int and less than 12 and is odd…” (but in the symbol notation)
+<p>For question 5 do we have to prove that the sum of n numbers is n(n&#43;1)/2</p>
+Does each earring have 7 grains, with the pair therefore having 14? Also, the 7 grains on each earring do not necessarily have to be unique, do they? Thanks.
+Does each earring have 7 grains, with the pair therefore having 14? Also, the 7 grains on each earring do not necessarily have to be unique, do they? Thanks.
+The two earrings in the pair are identical
+response time: 0:04:27
+
+
+
+<p>Hi,</p>
+<p></p>
+<p>For question 7 are we only allowed to discard the faulty fork or can we discard a group of forks that has the faulty fork in it?</p>
+<p></p>
+<p>Thanks!</p>
+<p>Hi,</p>
+<p></p>
+<p>For question 7 are we only allowed to discard the faulty fork or can we discard a group of forks that has the faulty fork in it?</p>
+<p></p>
+<p>Thanks!</p>
+You have to successfully identify the faulty fork
+response time: 0:01:51
+
+
+
+<p>Are we allowed to assume basic parity laws (even number &#43; even number = even number, even number - even number = even number, etc.) or do we have to prove these as well if we chose to invoke these in our solution?</p>
+<p>Are we allowed to assume basic parity laws (even number &#43; even number = even number, even number - even number = even number, etc.) or do we have to prove these as well if we chose to invoke these in our solution?</p>
+<p>Unless otherwise stated, you must prove anything not proven in lecture, recitation or HW.</p>
+response time: 0:00:36
+
+
+
+<p>Should I write the list as a set? For example if I think the answer is positive integers from 2 to 17, then can I write it as {2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}? Or do I write just the numbers and not the curly braces?</p>
+<p></p>
+<p>And furthermore if I think that there are no elements in the set, can I just write $$\emptyset$$?</p>
+<p>The HW1H FAQ says to &#34;Avoid trivial set-builder notation&#34;, but the referenced post is not visible to the class. Can we clarify what is meant by trivial set-builder notation?</p>
+<p>Obviously to show the the final noodle is length 1 all you need is one example.</p>
+<p></p>
+<p>However, if we want to prove otherwise do we need to do a full on mathematical proof or is it fine to just explain in english why its not possible for the last noodle to be of length 1? </p>
+<p>For one of the questions, I found the rules of sum/difference of even and odd numbers to be useful. Do I need to prove a statement like &#34;the difference of an odd and even number is odd&#34; in my solution. Or can I just assume that it&#39;s a trivial thing we already know? I&#39;m inclining to proving them because we did an example proof for one of the rules in lecture.</p>
+<p></p>
+<p>Thanks so much.</p>
+<p>Hi,</p>
+<p></p>
+<p>I saw that on HW1T I received points off on question 1 for not distributing my expressions in parentheses, but I&#39;m feeling a bit misled right now, because in question @8_f5 on Piazza, it was said that &#34;Either was fine&#34; which I understood as parentheses are not needed. I&#39;m a bit confused because this was reason I didn&#39;t include parentheses on those two problems, but I still got points off because of it. Could somebody give me a bit more clarification on why that is?</p>
+<p></p>
+<p>Thanks so much!</p>
+<p>For question 2 on 1H can we leave answers in exponential form as they are very large numbers? </p>
+<p>Will office hours be held in person or will they be virtual today?</p>
+<p>Hi! I&#39;m not sure if I am understanding this question correctly. If there are 81 meat dishes on the table, and the two dishes next to each meat dish must be vegetable dishes, wouldn&#39;t it be also 81 vegetable dishes? Is there more to this question than just that? Sorry if this is too detailed of a question or I am not allowed to ask, I just wasn&#39;t sure I understood it properly.</p>
+<p></p>
+<p>Thank you so much!!</p>
+<p>Hello! For question 6, when the problem states &#34;in his final arrangements, he wants to use at least 1 meat dish and 1 veggie dish,&#34; does that mean that the circle has to have at least 1 veggie dish for every meat dish?</p>
+<p>Does everyone who eats with the faulty fork lose all their fingers at once (meaning you have to finish testing before 8:59am), or are you able to test a portion of it, wait and see if they lose their fingers, then keep testing the portion of forks they used? Seeing the wording of the question I&#39;m leaning towards the former but just wanted to make sure. Thanks!</p>
+<p></p>
+<p>Also, probably a stupid question: if anyone who uses the faulty fork at exactly 8:59am loses all their fingers, why can&#39;t Ria-tini just wait until 9am to use the forks since that would be after the finger-loss time of 8:59am?</p>
+<p>Would one correct way to solve Question 5 on Homework 1H be by showing a specific scenario or sequence of noodle choices where the length of the final noodle is not 1?</p>
+<p>By listing the members in the set, should we use set notation {}? For example, if the members are 1, 2, 3 would we write the answer as &#34;1, 2, 3&#34; or &#34;{1, 2, 3}&#34;</p>
+<p></p>
+<p>Thanks!</p>
+<p>Is there a separate website for OHQ? Not sure how to access...</p>
+<p>Is there a separate website for OHQ? Not sure how to access...</p>
+ohq.io, and then you can join the class
+response time: 0:04:05
+
+
+
+<p>For question 7 in HW1H, will TAs still lose their fingers if they eat with the bad fork after 8:59? Or is there one check (at 8:59) to see if a TA ate with a bad fork?</p>
+<p>For question 7 in HW1H, will TAs still lose their fingers if they eat with the bad fork after 8:59? Or is there one check (at 8:59) to see if a TA ate with a bad fork?</p>
+Both student answers are correct. It is meant to be a one-time check, and is a fun detail.
+response time: 3:57:04
+
+
+
