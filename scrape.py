@@ -4,6 +4,7 @@ import ssl
 import sys
 from piazza_api.rpc import PiazzaRPC
 import json
+import time
 from datetime import datetime
 
 if __name__ == "__main__":
@@ -14,7 +15,7 @@ if __name__ == "__main__":
         if i['name'] == 'Ishaan Lal':
             ishaan_id = i['id']
 
-    for j in range(10, 100):
+    for j in range(10, 20):
         try:
             post = p.content_get(j)
             # print(json.dumps(post, indent = 4))
@@ -73,6 +74,7 @@ if __name__ == "__main__":
             f = open("piazza.txt", "a")
             if (ishaan):
                 change_log = [post] + change_log
+            # change_log = [*set(change_log)]
             for i in range(len(change_log)):
                 if i > 0:
                     if 'content' in change_log[i]:
@@ -87,6 +89,7 @@ if __name__ == "__main__":
                     f.write(change_log[i]['history'][0]['content'])
                     f.write("\n")
                     print(change_log[i]['history'][0]['content'])
+            # followup = [*set(followup)]
             for i in followup:
                 f.write(i['subject'])
                 f.write("\n")
@@ -97,6 +100,7 @@ if __name__ == "__main__":
                 f.write("response time: " + str(time_to_ans))
                 f.write("\n\n\n\n")
                 print("response time: " + str(time_to_ans))
+            time.sleep(2)
         except:
             continue
     f.close()
