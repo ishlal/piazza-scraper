@@ -3,19 +3,63 @@ from bs4 import BeautifulSoup
 import ssl
 import sys
 from piazza_api.rpc import PiazzaRPC
+from piazza_api import Piazza
 import json
 import time
+import csv
+import pandas as pd
 from datetime import datetime
 
-if __name__ == "__main__":
+
+#if __name__ == "__main__":
+
+def csvstuff():
     p = PiazzaRPC("l6vqf2f5p8e6c1")
     p.user_login()
+    
+    # put in for loop
+    try:
+        post = p.content_get(10)
+        cols = post.keys()
+        csv_file = "piazza.csv"
+        try:
+            with open(csv_file, 'w') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=cols)
+                writer.writeheader()
+                writer.writerow(post)
+        except IOError:
+            print("IOError")
+        # f = pd.json_normalize(post, record_path=['change_log', 'history', 'children', 'config'])
+        # f = pd.json_normalize(post)
+        # json_obj = json.dumps(post)
+        # print(json_obj)
+        # # f2 = pd.json_normalize(post, "history")
+        
+        # f.to_csv("piazza.csv")
+        # #f2.to_csv("piazza.csv")
+        # try:
+        #     with open(csv_file, 'w') as csvfile:
+        #         writer = csv.writer(csvfile, fieldnames = f.columns)
+        #         writer.writeheader()
+        #         writer.writerow(json_obj)
+        # except IOError:
+        #     print("IOError")
+        # print(f)
+            
+        
+
+    except:
+        pass
+
+def dostuff():
+    p = PiazzaRPC("l6vqf2f5p8e6c1")
+    p.user_login() # can pass in credentials as parameters
     ishaan_id = 0
     for i in p.get_all_users():
         if i['name'] == 'Ishaan Lal':
             ishaan_id = i['id']
 
-    for j in range(10, 20):
+    for j in range(1, 1000):
         try:
             post = p.content_get(j)
             # print(json.dumps(post, indent = 4))
@@ -104,4 +148,16 @@ if __name__ == "__main__":
         except:
             continue
     f.close()
+
+def getstats():
+    #p = PiazzaRPC("l6vqf2f5p8e6c1")
+    p = Piazza("l6vqf2f5p8e6c1")
+    p.user_login() #can pass in credentials as parameters
+    network = p.network("l6vqf2f5p8e6c1")
+    stats = network.get_statistics()
+    print(stats)
         
+
+if __name__ == "__main__":
+    dostuff()
+    # getstats()
