@@ -1,0 +1,1269 @@
+You can find the template on the course website at cis1600.com
+Have you joined the class on gradescope? If not, you can join it with the entry code E7VVGZ
+If you are looking for information on content that may be helpful in solving the problems, check out the lecture notes found here: https://www.cis.upenn.edu/~cis1600/current/lectures.html
+you can just write in T or F
+no need to show work for question 2. You can just fill in the values in the truth table.
+The actual text should be outside of math mode. Here is a simple analogous example:
+
+
+Thus, $p \land q$ is true.
+It is not outside the sufficiency claim
+No. The left and right earring are the same pattern within each pair.
+Yeah. The winner automatically goes into the restaurant 
+Yes. Each noodle is a different integer length.
+sure
+1) Yes.
+2) Yes, there can be repetitions.
+Examples of set builder notation are the sets in 1a. So your answers to 1b should be of similar form to the sets provided to you in the question of 1a.
+you must prove anything that you choose to use that was not covered in class. So that would mean you would have to prove induction (which doesn&#39;t sound fun). So I would encourage avoiding induction for this problem set.
+yes
+Your definition for &#34;belongs to&#34; is correct.
+
+One way of thinking about &#34;subset&#34; is &#34;A is a subset of B if every element of A is also an element of B&#34;. So for example, if $$A = \{1, 2\}$$ and $$B = \{1, 2, 3\}$$, then $$A \subseteq B$$, because every element of A is also an element of B. But if $$A = \{1, 4\}$$ and $$B = \{1, 2, 3\}$$ then $$A \nsubseteq B$$
+yeah
+The two earrings within the pair are the same.
+You can just think of it as that she needs to detect the faulty fork at that time.
+It’s not prime
+0 is non-positive and non-negative
+\\
+The two earrings in the pair are identical
+You have to successfully identify the faulty fork
+Unless otherwise stated, you must prove anything not proven in lecture, recitation or HW.
+ohq.io, and then you can join the class
+Both student answers are correct. It is meant to be a one-time check, and is a fun detail.
+For questions like this, we encourage you to attend office hours to have a better conversation with a TA one-on-one!
+Unfortunately, we do not know what goes inside the mind of Saurabh.In other words, since the question is essentially asking if it is possible to get to a noodle of length 1, the randomness doesn’t really play much of a role (because you are considering all possible sequences of noodle selections that Saurabh can make). Hope this makes sense. If not, follow up, and I’ll be happy to try to further clarify.
+The pasta can repeat.
+No
+Yes, they will not know whether they’ve used the faulty fork until 8:59. But there is no limit to the number of forks a TA can use.
+yes
+Yeah. We&#39;ll be covering this fact in lecture probably on Tuesday, so you can use it without proof.
+cardinality
+Yes, we can only take cardinality of sets. Use that fact in conjunction with the other information you know about $$x$$ to come up with an answer! you seem to have a lot of the facts nailed down. It&#39;s just about piecing them together, and for that, use the fact that we only take cardinality of sets.
+You can use tick marks (which is the button to the left of the 1 key on a standard keyboard) for the left quotations. Something like this:
+
+
+`` Hi I&#39;m Ishaan&#34;
+You can &#34;imply&#34; the steps. But a brief justification of why you are making that implication would be nice.
+A very short (like one sentence) justification of why that&#39;s true would be nice for you to include.
+The TA(s) who have eaten with the faulty fork will only know they have eaten with it at 8:59. The question is not asking you to find the most efficient way. You just need to come up with a way to successfully identify the faulty fork for certain.
+A tree diagram alone will not provide full explanation. So if you choose to include one, you should also include a verbal explanation of what the tree diagram is depicting and argue why it is correct.
+The discussion at @17_f47 may be helpful. But the question is correct as worded. You need to count the total amount of dishes that Chef Brian put out given the constraints above. Feel free to attend office hours to verbally talk through your concerns to a TA!
+yeah that&#39;s fine
+Two earrings within a pair are identical.
+@17_f6
+leaving it in those unsimplified forms is fine
+There may be multiple different solutions for question 7, and not all of them will use the hint. If you think your solution is correct and your solution does not use the hint, this does not mean that your solution is incorrect.
+He can choose which two specific noodles to select. Yes to your second question.
+There may be multiple correct answers to the parts of 1b. You can submit any one of the correct answers to get credit.
+Note that only Attempt 3 shows a correct solution for the &#34;odd numbers&#34; question. In that attempt, we can see that we will not select the number zero in steps 1 and 2. Only the second digit and the third digit can be zeroes, which is why they are placed last in our ordering of steps. But these steps also acknowledge the fact that, for example, the second digit cannot be the same as the first or fourth digit (whose digits have already been chosen), which is why there are 10 - 2 = 8 ways to perform step 3. And similar logic holds for step 4.
+
+I&#39;m not sure I completely understand your second question, but I&#39;ll try my best to give some information that may clear things up. Steps within your process that you develop for counting CAN depend on each other, but we can only perform MR when each step has a CONSTANT number of ways of being performed. For example, in attempt 1 of the &#34;secretary&#34; question, the third step can be performed in 2 ways if, for example, Bob is President and Ann is Treasurer, 1 way if, for example, Bob is president and Clyde is secretary, or 0 ways if, for example, Clyde is president and Dan is secretary. Since this is NOT a constant value, the MR can&#39;t really be used.
+
+Whereas, in attempt 2, since we chose the secretary first, the remaining two steps always have the same constant number of people to choose from.
+
+For your last question, no. There can be many ways of ordering the steps. You just need to be sure that the ordering of the steps meets the above rule of that constant value for each step.
+
+hope that made a bit of sense!
+
+
+You cannot have two adjacent stripes with the same color IF they share a long edge. Each stripe is a rectangle, and &#34;long edge&#34; refers to the long side of the rectangle.
+Any sort of proof/justification is allowed as long as it is both logically and mathematically sound and correct.
+You do not need to give explanation for Q1. For all other questions, you must provide explanation/justification unless otherwise mentioned. 
+
+We cannot speak as to how our rubrics for grading are set up.
+Yes. You should download it as a pdf from overleaf, and submit that pdf to gradescope.
+maybe think about what is so special about $$2^9$$ -- both the actual numeric value (in context of the problem) and its potential semantic meaning.
+both are fine!
+You should avoid doing this for sets. This is because sets are an unordered collection of values. For something like sequences (which is something we don&#39;t cover in this class), the elements have order and we can use a recursive definition.
+The question is correct as written. There isn&#39;t too much more I can say without giving away the answer. Be sure that you understand each part of the set given in 1a)iv). It may be helpful to read the problem out loud (essentially converting the math to English) and go from there. 
+I guess they&#39;ll still lose their fingers. But this is something you should not worry about. The pasta eating contest is at 9:00AM, so you must identify the faulty fork before then anyways.
+Check out the lecture notes (1T) which gives the definition of prime, and see if that helps you reach a conclusion!
+yep
+Maybe think about what happens to the total length after a noodle operation.
+sure
+For your first question, a simple one sentence explanation would be nice.
+
+For your second question, you can assume that those are prime.
+No, we can&#39;t quite say that $$k > 1$$ because it overlooks the case where $$x = 2$$. Since $$2 \in A$$, it can be possible that we let $$x = 2$$, and in this case, we would have $$k = 1$$. 
+Maybe like a one sentence explanation would be nice. Like $$18 \in X$$ because $$18 =11(1) + 7$$
+Yep
+Yeah that’s fine
+You can think of it as there are 59 lipsticks, each a different shade. Within the 59, there are 12 disjoint pairs that satisfy the criteria. 
+
+&#34;Disjoint pairs&#34; mean that if lipstick A is in one pair, then A cannot be in another pair that contributes to the 12 total pairs.
+Yes. This is what we call a counterexample
+You must prove anything that has not been proven in lecture, recitation or a previous homework.Also, the product of two odd numbers is not even.
+&#34;s divides (qx &#43; ry)&#34;
+sure, but for any sort of modular arithmetic, you should be careful and prove anything that was not proven in lecture.
+yes and yes
+yeah if you want to say &#34;3 is prime&#34;, that&#39;s fine.
+nah
+No. The vertical line denotes “divides”. So it reads as “s divides q and s divides r implies…”
+You should justify this
+yes
+they are fixed.
+
+yeah
+yeah you can assume this
+No. The vertical line denotes “divides”. So it reads as “s divides q and s divides r implies…”
+Yes 
+You can reference your proof from a previous homework (no need to copy and paste, just cite it). For your second question, you should prove that.
+A one sentence explanation would be nice.
+No, but they still must appear in the arrangement.
+Sometimes. You have to be careful as to whether or not the question is an existential or universal question.
+For your first question, yes, and this comes from the fact that the 59 lipsticks are different shades. 
+
+No to your second question.
+
+Yes to your last question.
+A pone sentence justification would be nice.
+@149
+yes
+For the first question, they can be any color.
+For the second question, yes.
+yeah you should prove that.
+this is something we&#39;d like you to think about
+For combination, use
+
+\binom{}{}
+For permutation, there isn&#39;t really a symbol, so you can just write the equation.
+Whatever you feel is best. Any logically and mathematically sound and correct solution will receive credit.
+Attending in person is strongly preferred.
+The shades within the pair need to be adjacent. The pairs themselves need not be adjacent.
+Does @144 help?
+Sure
+A counterexample is a counterexample. You do not need to explain how you came up with it, you just need to provide it.
+This is up to you. As long as you get the correct answer with justification that is logically and mathematically correct and sound, you will receive credit
+Resolved
+You must prove anything that was not proven in lecture, recitation or homework 
+Intersection does distribute over set minus, however, it is not immediately clear why. Thus, if you wish to use this in a solution, you should prove why it is true.
+Yes. $$d$$ and $$t$$ are both non-zero real numbers.
+exactly 10
+yes
+yes
+For every pair of points, there is a line connecting them. So if there were 4 points, there would be 6 lines.
+
+\binom{x}{y}
+no
+There are still $$n$$ competitors.
+They were held from 4PM-6PM. Our next office hours will be on Saturday.
+This would be a counterexample. When to use counterexamples is something you should think about!
+A lemma is usually a minor proposition that is used to help us in a larger proof. You can think of it like a “stepping stone”.
+You don’t count the intersections that occur at the perimeter.
+Each island must have exactly 10 people.
+This is something that you should think about. I might argue that $$t$$ is important because it bounds $$t$$.
+Not necessarily.
+This is something we are unable to comment on. In general, if you personally think something needs more justification, then you should provide more justification.
+no. You should only count the intersection points within the circle. Not on the boundary.
+Venn diagrams will not suffice for a proof. They are good, however, for gaining initial intuition.
+You should prove this
+Since we have not covered graphs in class, we advise you to avoid using graphs. If you choose to do so, you would be required to do a ton of proofs and provide immense justification regarding the graph, which is just overall very unpleasant.For that reason, we encourage you to stick to concepts that have been covered in class.
+It’s hard to say without knowing what the rest of your proof looks like, but the general advice is that if you have to ask yourself whether or not to prove something, it’s always safer to just prove it.
+no
+The contestants are distinguishable. However, when you &#34;flipping&#34; the grid does not result in a different case because the same contestants received a rose.
+$$26^4 - 25^4$$ is the correct answer.
+Yes
+You can assume they are already placed and will stay in their positions
+you should provide a bit of justification
+There is a line between every pair of points.
+yes
+Yes
+Any fully mathematically and logically sound and correct solution will receive credit. My general advice is to provide both symbols and words to maintain clarity.
+\binom{3}{2}
+you should justify this.
+There are $$n$$ contestants where $$n \geq 30$$.
+Does it help if we clarify that there are no points in the interior of the circle where more than two lines intersect? If not, let me know, and I&#39;ll provide an example of the $$n = 6$$ case.
+yes they should be available on Canvas under the Modules tab.
+yes, you can use De Morgan&#39;s laws (including the equivalence you specified) without proof. Though it would be nice to specify in your solution that you are using De Morgan&#39;s when you actually use it!
+
+They are arranged in a way so as to not have multiple lines intersecting at the same point. So to answer your question, they are neither evenly spaced (because this would lead to multiple lines intersecting at the same point) nor are they randomly spaced (because this does not guarantee avoiding multiple lines intersecting at the same point).
+This is something we&#39;d like you to think about. Additionally, questions like these are much better suited for office hours where you can speak with a TA one-on-one.
+Yes, showing $$A \nsubseteq B$$ would prove that $$A \neq B$$. Often, the easiest way to do this is to find some $$x \in A$$ such that $$x \notin B$$.
+you make the selections out of the $$n$$ contestants
+For now, try clicking on this at the top:
+
+
+We&#39;ll try fixing this error soon.
+yeah you should justify this
+Your answer can be in terms of $$n$$.
+a brief justification would be nice
+a brief explanation would be nice
+As an example, suppose three of the cars are called $$A$$, $$B$$ and $$C$$ (distinguishable), and suppose the three interests are called $$x$$, $$y$$, and $$z$$.
+
+Then one possible distribution of these cars would be $$A$$ to $$x$$, $$B$$ to $$y$$ and $$C$$ to $$z$$. But clearly, there are many more ways to distribute the cars.
+
+If, however, the cars were indistinguishable, then we could all give them the same name of $$A$$. And the only way to distribute the cars now would be $$A$$ to $$x$$, $$A$$ to $$y$$ and $$A$$ to $$z$$. 
+
+As a reminder, ALL eight cars must be distributed amongst his interests.
+Thanks for pointing this out. This is a typo on our part! It is supposed to say &#34;then $$y \in X$$ and $$Y \subseteq X$$&#34;
+not necessarily.
+I&#39;m not really sure what you mean by &#34;dividers&#34;, but regardless, it seems like you are already far along in your thought process for this problem, so it may be a better idea to visit office hours to discuss that thought process with a TA in person. As it stands, it is hard to answer your current question without knowing the rest of your solution.
+set minus
+Your answer for Q6 must be in closed form.
+no
+This is not considered to be one of De Morgan&#39;s Laws, so you would have to prove it to use it.
+Yeah, you can say $$x^2 > 1 \implies |x| > 1$$ without explanation. Most algebraic steps can be done without proof.
+you should justify this
+That&#39;s the symbol for set difference. It is in the lecture notes.
+sure
+yes
+From all $$n$$ contestants.
+no
+This is something we&#39;d like you to think about. While you are proving that $$d 
+resolved.
+You can prove it once and then use it for the rest of the psets (though you should cite where you proved it initially whenever you choose to use it in the future).
+You should argue it to be true, and then you can use it for the rest of the pset.
+These Venn Diagram-esque approaches are good for gaining insight into what the sets will look like after the operations are performed on them, but do not suffice as a rigorous proof. For this, it may be a good idea to reference the lecture notes to see what a more rigorous proof would look like.
+yep
+A brief justification/proof would be nice.
+yeah
+No. You can just assume that $$\binom{a}{b} = 0$$ for $$a 
+no. You can have two (or more) sets which are equal and still use De Morgan&#39;s Laws.
+you should prove this
+
+$A \setminus B$
+nah you don&#39;t need to cancel them out. So something like $$\binom{10}{3} \cdot \binom{5}{2} \cdot \binom{7}{6}$$ would be a fine final answer.
+Yes
+Yep
+Yes you can assume the lines do not extend beyond the perimeter of the circle
+yeah
+there is a line between every pair of special points
+there is no minimum or maximum value on the number of cases. You just need to make sure that the casework is exhaustive. one way of checking this is to take the union of values covered in each case, and ensure that it is equivalent to the domain.
+if all operands in the expression are the same, then sure you can assume associativity
+yes
+You do not need to write out the steps to construct one permutation/combination.
+(1) Yes, 30 people of the $$n$$ are sent to islands.
+(2) Yes, 15 people of the $$n$$ are sent to islands.
+(3) This is something we&#39;d like you to think about.
+(4) You can think of this as saying &#34;How many ways are there of sending the people to the islands given the constraints&#34;
+@284
+No, but this would show that $$S \subseteq T$$
+you don&#39;t need a full-blown proof, but a small (couple words or one sentence) justification would be nice.
+
+Any mathematically and logically sound and correct justification/proof will receive credit 
+Let&#39;s consider two similar questions:
+
+Question 1: How many ways are there to give two distinguishable watches to two distinguishable people such that each person gets a watch.
+
+Solution: Let $$A$$ be the first watch and $$B$$ be the second watch. Let $$X$$ be the first person and let $$Y$$ be the second person. Then we have two distributions: $$((A, X), (B, Y))$$ and $$((A, Y), (B, X)$$. 
+
+Question 2: How many ways are there to give two indistinguishable watches to two distinguishable people such that each person gets a watch.
+
+Solution: Now, we cannot call our watches $$A$$ and $$B$$ because they are indistinguishable. Instead, we will call them both $$A$$. If our people are $$X$$ and $$Y$$, then we only have one distribution: $$((A, X), (A, Y))$$. 
+
+In a sense, &#34;distinguishable&#34; allows for more variety in our cases/distributions.
+I would encourage you to avoid doing so, as it would require immense amounts of proofs (seeing as we have not covered this in lecture). We encourage you to stick to concepts covered in class. 
+Yes.
+no
+Yes
+They will be in Skirkanich 114. But you will still need to use OHQ to ask your question.
+yes you should prove this
+yes
+This is something we&#39;d like you to think about.
+just think about the final arrangement
+the latter
+You should state that it is incorrect and point out where the error is or what went wrong. You do not need to redo the proof.
+You do not need do convert (n choose k) into factorials. So you can leave it as is.
+I&#39;d avoid using truth tables because truth tables are used for logical expressions, whereas q2 deals with sets and set operations.
+You should aim to find the first logical error.
+Since we have not covered induction in class, you would have to prove induction before using it.
+Yes
+Yes. You can imagine that the roses are different colors.
+You can describe a dress however you want, so long as it is clear.
+No, you should justify this
+It is not always true that $$A \cup B \cap C = A \cap C \cup B$$ because parentheses are needed to avoid ambiguity.
+1 sentence justification
+No. You would have to prove this
+answered in 318_f1
+unfortunately, this is not something we can comment on. 
+yes
+yes
+no
+The course code is E7VVGZ.
+
+Homework solutions can be found on canvas.
+yeah
+Yes, you should prove the product. 
+
+A one sentence justification for why a natural number is a rational number would suffice.
+yes
+You can think of it as that all $$n$$ people are reconvened (even the ones who were assigned islands in part a), and then those $$n$$ people should be used in part b. So yeah, I guess some people may &#34;move&#34;, but you should not think about the people/islands of part a when solving part b.
+yeah you should justify this
+Yes, you could still disprove the statement.
+you can provide the formula, but justifying by citing a &#34;pattern&#34; would not be rigorous. But you should still justify your answer (avoid induction since we haven&#39;t covered that in class yet.)
+My answer is a very hesitant yes, because I feel like there are examples in which you do not flip all the inequalities, but I can&#39;t think of one at the moment.
+
+In general, it is best to simply individually negate both sides and if the negation requires the inequality sign to be flipped, then do that.
+you do not need to prove that
+those are de morgan&#39;s laws!
+you do not need to prove them again. you can cite them from your previous hw
+set difference
+No need to apologize for making the post private! You made the correct decision :)
+
+You should not be providing counterexamples for question 3. Your job is solely to analyze the proofs, and if you think the proof is invalid, point out the error in it.
+q&#43;r, r&#43;s, and s&#43;t must all be odd
+143 divides all natural numbers
+student answer is correct. But just for fun... some authors use $$\mathbb{P}$$ or $$\mathbb{I}$$ to represent the irrationals, but we don&#39;t do that in this class, so you should just stick to $$\mathbb{R} \setminus \mathbb{Q}$$ :)
+&#34;...he assigns 2 clones each to 6 different roles in the team...&#34;. So yes, the roles are distinct.
+this is something we&#39;d like you to think about
+You can point out the first error in the proof.
+resolved
+I&#39;m not exactly sure what you mean, but maybe think again about the &#34;false&#34; part of &#34;false&#34; implies everything. To clarify, let&#39;s remove the implication symbol, and rewrite the problem in words: &#34;For all $$n \in \mathbb{N}$$, if $$2n + 1$$ is a multiple of $$3$$, then $$n^2 + 1$$ is a multiple of $$3$$.
+nah
+nah
+It is true that $$0 \in \mathbb{N}$$. Your solution should still address this case.
+No, you should prove this!
+They are different in the sense that being on role 1 on team A is different from being on role 1 on team B.
+you can assume that
+yeah
+He does not have to visit at least 1 location.
+
+Yes to the second question.
+no, but a one sentence explanation would be cool
+we haven&#39;t really defined it, but we&#39;ll say that anything divided by zero (except for zero) is undefined.
+You do not need to provide a valid proof. you should just indicate where the error is and justify why it is wrong
+Well we don&#39;t really use the word &#34;divides&#34; when talking about rational numbers anyways, unless the rational number just so happens to be an integer. Like it is foreign to say &#34;$$2$$ divides $$\frac{3}{2}$$&#34;.
+
+yes
+You can point out and explain the first logical mistake of the proof.
+yes, it is fine that they assumed this.
+After splitting into 2 teams, for each team, you select two clones for each role. So suppose we look at Team A, then the first role must get two clones, the second role must get 2 clones, and so on.
+yes
+Do you mean &#34;team&#34;? If so, then yes, teams A and B are considered distinct.
+Because $$a^2$$ and $$2b^2$$ represent the same number. Suppose we let $$p=a^2$$ and $$p = 2b^2$$, which follows from the fact that $$a^2 = 2b^2$$. Then saying that &#34;$$a^2$$ and $$2b^2$$ must have the same number of prime factors&#34; is equivalent to saying &#34;$$p$$ and $$p$$ must have the same number of prime factors&#34;, which is true.
+nah
+&#34;Then, he splits the clones into two equal sized subteams...&#34;
+no
+if you wish to use this fact, then you must prove it.
+You should aim to identify the first logical error
+Yes
+No, a clone cannot have more than one role
+Order does not matter
+No, it would be considered valid still
+A short sentence would suffice
+You  should do both
+Yes
+No, there is not an order in which the roles need to be assigned 
+Yes
+this is something we&#39;d like you to think about
+You can include a proof regarding products of rational numbers and irrational numbers if you think it would be beneficial to solve problem 2. The response in @387 is correct, as the statement in question was not true. However, that statement can be adjusted slightly to make it true, that that adjusted statement can be proven.
+nope. just be sure to cite that it was proved in lecture!
+we have not constructed a formal definition. You can state your own informal definition, but it must be correct.
+no you cannot have more than one line for one possible way. Each &#34;line&#34; is a different rearrangement of the clones numbered 1 through 99, and if that line is formed in such a way that the sum of every pair is odd, then it adds one to the total count of lines.
+All 99 numbers are used in each line.
+The first clone in line can be any number. But when considering consecutive pairs, the first pair is (first clone in line, second clone in line). the second pair is (second clone in line, third clone in line), and so on.
+No, multiple pairs of clones cannot have the same role.
+sure you can assume this now
+No
+This is something we’d like you to think about
+No, you should prove it
+A one sentence justification would be nice
+No
+@414
+yes
+I&#39;m not exactly sure what you mean by &#34;every value of $$\sqrt{x}$$&#34;
+You are allowed to assume $$\sqrt{a} = \sqrt{b}$$ if and only if $$a = b$$. How you choose to use this fact in your solution is up to you.
+nah
+a one sentence justification would be nice
+sure
+Yes, -143 is divisible by 143. More generally, we say that $$x$$ is divisible by $$y$$ if $$x = yk$$ for some $$k \in \mathbb{Z}$$
+yes you can use this without proof, but be sure to cite that you proved it in lecture
+The variable $$i$$ represents a city.
+$$x_i$$ represents the number of superfans in city $$i$$.
+
+Yes, B is the set of cities whose number of superfans is greater than the double the average.
+no
+If you want to disprove it, then a counterexample would suffice.
+Answered in @434
+This only works when you have a specific instance of a problem. In most cases, problems are given in a &#34;general&#34; case with variables and abstract values. In these cases, you should avoid giving a single example, and prove that such an example always exists.
+Yes
+In part a, the creatures in Max&#39;s list can be identical to that of Justin&#39;s list. But in part b, this cannot happen since Max must have at least one more.
+In both parts, the &#34;valid cases&#34; have all of Jus-Tien&#39;s creatures appearing on Max&#39;s creatures list.
+yes
+Jus-Tien can select at most $$n$$ creatures, which suggests your answer may be in terms of $$n$$. Yes, the $$n$$ creature types are all distinct.
+yeah you can say that without proof
+yes
+You could, but this week in recitation, we will show this fact, so you could just cite that we proved it in recitation.
+it can be!
+It does not have to be equal, but it can be.
+this is not something we can comment on. In general, it is better to be as clear as possible, even if comes at the cost of more words, than to be less clear.
+nah, because our definition specifies that $$n > 1$$
+
+
+Yes
+Ye
+This is something we’d like you to think about
+Is this true? Let p=9, and a =6
+A multiset is defined to be a set where elements can repeat. So if we are looking at a multiset that has repeats, and we want to select a subset of items, sometimes we would want repeats in that subset (hence, we would want to obtain a multiset).
+
+A good example is the book example in the lecture notes, where in our 6 book selection, we will have repeats. 
+In this class, we do not use any symbol for the set of primes. Some authors use $$\mathbb{P}$$, but if you choose to use this, you should specify that this refers to the set of primes.
+Nah
+Nah
+Is this true? $$\sqrt{2}$$ is irrational, but $$\sqrt{2} \cdot \sqrt{2} = 2$$ is not irrational.
+You should prove anything that was not proven in lecture, recitation, or a past homework.
+
+But this does seem like something you may have proved in the past, so if you don&#39;t want to prove it, try looking back to see if you proved it somewhere else, and you can just cite that work.
+A one sentence explanation would be nice
+yep
+This really depends on the proof. Most of the times when doing contradiction, we end up contradicting something true that was given in the problem, though in some instances, you may end up contradicting what you assumed.
+
+If you find yourself often proving the opposite of what you assumed, then it may be best to just stick with a direct proof.
+If you have proved it in lecture, you can use it without proof. Otherwise, a short justification would be nice
+A short explanation would be nice.
+A one sentence explanation would be nice
+Not quite. I&#39;ll give you an example: $$84 = 2 \cdot 2 \cdot 3 \cdot 7$$. The prime factor $$2$$ appears $$2$$ times. The prime factor $$3$$ appears one time. The prime factor $$7$$ appears one time. So $$S(84) = 2 + 1 + 1 = 4$$
+this is something we&#39;d like you to think about
+This is something we&#39;d like you to think about.
+no
+you may assume $$|C| = n$$
+No. Assume that the lists are empty, and they want to count how many ways they can construct their lists such that Max&#39;s list contains all creatures that are on Jus-Tien&#39;s list (for part a)
+As long as it’s in closed form, that should be fine.
+You have to prove for ANY arrangements of the mouseketools, if you perform the subtraction and then the multiplication, you obtain an even number
+but you also need to consider that $$p \leq \sqrt{m}$$
+I suppose you could, but this may be overkill because some parts of the proof may require further proofs (as there may be some aspects of the proof that haven&#39;t been covered in lecture). 
+
+The homework problems are designed to be solved using only concepts covered in lecture, so the usage of Bezout&#39;s Lemma may be unnecessary.
+for multiplication, no, because this was mostly proven in lecture 3t example 1. For division, yes.
+Maybe try substituting $$n = 1, 2, 3...$$ into your solution, see if you notice a pattern to convert the answer into closed form, and then justify why that equality is true.
+
+If that proves to be too challenging, then perhaps try a different approach and/or modify some of your thought process.
+If you&#39;re looking at a number like $$7$$ or $$16$$, then you can just say whether or not it is prime or composite. But if it is some sort of expression with variables, then you should prove whether or not the evaluation will be prime or composite.
+sure
+I don&#39;t think you can just negate that expression and have it be logically equivalent. You should also be considering the second part of the statement &#34;... then $$m$$ must be prime&#34;
+I don&#39;t think we have proved them, but you can just assume them.
+yes, you may assume $$i, n \in \mathbb{Z}$$ and $$0 
+those are considered different
+different
+you can just say that it was proved in the lecture notes
+sure, especially because there are no negative primes.
+yeah if Jus-Tien chose every creature, it would not be possible for Max to choose one more, so you wouldn&#39;t want to count that case.
+sure
+You are allowed to use the fact that 1&#43;2&#43;…&#43;n =n(n&#43;1)/2 without proof, but it is not required to use it
+
+\bar{x}
+&#34;Without loss of generality&#34; is commonly used when making a claim for some variables. For example, I would say something like &#34;suppose $$a, b \in \mathbb{Z}$$, and without loss of generality, let $$a 
+
+&#34;Arbitrary but Particular&#34; is usually used when describing an element of a set. We use this to indicate that there is &#34;nothing special&#34; about the element, and the argument for that element will hold for all elements of the set.
+yes
+The opposite of &#34;there is no prime such that XYZ conditions hold&#34; is &#34;there is a prime such that XYZ conditions hold&#34;
+Note that the question can be rephrased (without losing any meaning) as &#34;... if there is no prime $$p$$ such that $$p \leq \sqrt{m}$$ and $$p \mid m$$, then $$m$$ is prime&#34;.
+
+How you choose to negate this is something we&#39;d like you to think about
+no
+you can assume this
+A one sentence justification would be nice
+This is something we&#39;d like you to think about.
+no
+yeah you can use &#34;imagine&#34;
+powerset
+no
+sure
+Max&#39;s list must contain all creatures on Jus-Tien&#39;s list as well as potentially some other creatures.
+this is something we&#39;d like you to think about!
+you can implicitly assume them
+
+yep
+You should define what $$M$$ is. You may assume $$n$$ is finite.
+Not quite. Something like $$C = C_1 \cup C_2$$ and $$C_1 \cap C_2 = \emptyset$$ would be more accurate
+yep
+they would be considered different
+@543
+you should show your intermediate steps
+I do not believe we have proven the Well-Ordering Principle in this class yet, so you may not assume it. You would have to prove it if you choose to use it.
+nah
+mmmm you should be a bit careful about this, especially by saying if the primes are distinct or not. For example $$4$$ has factors $$1, 2, 4$$, so it technically only has one prime factor (but with multiplicity 2)
+
+Regardless, you should prove it
+&#34;for some k&#34; is fine to use
+you can state these without proof
+you can assume that
+In this case, we allow $$C$$ to have repeated elements, and you can assume $$|C| = n$$
+yes that&#39;s fine
+He needs $$r$$ blocks
+this is fine
+It is not necessary. It is mostly used to simplify the statement to lessen the amount of words in the proof.
+a) no. Max&#39;s list can have more creatures than Jus-Tien&#39;s list
+
+b) I guess so. Max&#39;s list MUST have more creatures than Jus-Tien&#39;s list
+a bit more justification would be nice (mainly why you can generalize this to the 11 case)
+it&#39;s really hard to answer this question without knowing the work you have done, and even if we did know the work that you have done, it would be a question better suited for office hours.
+
+The best &#34;hint&#34; I can give is to think about how that answer could be obtained, and think about where each creature could appear.
+
+Sorry for the vague answer, but it&#39;s the best I can do for you.
+yes you should.
+yes
+You are encouraged to use the fact that if $$A \subseteq B$$ then $$\forall x \in A$$ we have $$x \in B$$
+Our solutions for 3H are now posted on Canvas, so you can take a look at them now.
+
+But in general, you can try to simplify a complex statement. So for example, the &#34;if...then...&#34; statement in Q2 is quite complex, but it can be boiled down to: &#34;if there is no prime $$p$$ such that XYZ conditions hold, then $$m$$ is prime&#34;.
+
+The contrapositive would be &#34;If $$m$$ is not prime, then there is a prime $$p$$ such that XYZ conditions hold.&#34;
+yes, that answer would be closed form.
+your answer can be in terms of $$r$$ and/or $$k$$
+You should somehow modify your idea to account for that $$-1$$. A question like this might be better suited for office hours.
+In that case, there would be $$0$$ ways to create his custom set.
+
+Your answer should account for situations like this.
+yeah that&#39;s fine
+a short justification would be nice
+Yes, the golden color is one of the $$k \geq 1$$ blocks
+@582
+no need
+no
+The color gold is always included in the k colors
+sure
+Yep
+At this point, no. However, when we cover strong induction, you will see this idea arise.
+The order does not matter
+I would avoid doing this since these $$r_i$$ values are likely to be unknown. You should aim to have your answer be in terms of only the variables presented in the question ($$k$$ and $$r$$)
+The color gold is always included in the $$k$$ colors.
+no, you should not upper bound these variables.
+yes
+you should try to adjust your question so that the RHS is $$\binom{m + r}{m}$$ instead of $$\binom{m+r}{r}$$
+1) yes, there does have to be a block for each of the $$k$$ colors
+2) those would be considered different
+sure
+correct
+yep
+you do not need to derive it, but it would be a good idea to explain how it applies to the scenario
+you should consider this case in your solution
+Yeah it’s fine
+Yeah that’s fine
+.
+Yes that would be valid
+it is necessarily gold
+yes that&#39;s fine
+you could
+yes
+yeah this is a question that is hard to answer on piazza and better suited for OH. My best advice is to determine how you want to do the partition, which may be derived from any special characteristics you find about the things you count on the RHS.It may also be helpful to note that the bottom part of the “choose” on the LHS is m-1 instead of the m on the RHS
+This is something we would like you to think about. If in doubt, write more to make it as clear as possible.
+1) yes2) a short explanation would be nice3) sure
+This is something we’d like you to think about
+Yeah that’s fine to assume
+Just explain what k and r are
+Thank you. The love is appreciated &lt;3
+I&#39;ll answer the original question you posted because the answer to your current question is up for debate, but you can assume $$\binom{n}{r} = 0$$ for $$n 
+You need to use induction
+Because the induction hypothesis says that $$k! &lt; k^k$$. So we’re substituting that in, which means we can’t use equality since the IH doesn’t have equality
+I&#39;m not the greatest at combo proofs, but I&#39;ll do my best to answer this and maybe another TA can provide their advice.
+
+The way I approach combo proofs is exactly what you outlined: I look at the easier side, and formulate a counting question based off of that.
+
+The &#34;harder&#34; side often requires a bit more creativity. There&#39;s usually some sort of system involved in counting the &#34;harder&#34; side, whether that be partitions or casework. It&#39;s also nice to do a bit of pattern recognition (like if I see a $$2^n$$ on the harder side, I might be thinking about subsets).
+
+Really, a lot of it comes down to practice and creativity in developing different methods of solving the same counting question.
+yes
+yes to the first question. no to the second question
+how you approach the induction is something we&#39;d like you to think about. I think the key thing to focus on is $$r \leq n$$. It may also be helpful to think about what the Induction Hypothesis actually is.
+how you choose to induct is something we&#39;d like you to think about. You just need to ensure that you are proving the claim no matter how you induct.
+yes to both questions
+You can do that as long as you show that it will also answer the intended question
+it is not necessary to use mathematical symbols. However, I like to encourage students to use it because relying on words only tends to be less rigorous than using mathematical notation. but at the end of the day, it&#39;s up to you! choose whatever suits you best, and you&#39;ll receive credit as long as your answer is logically and mathematically sound and correct.
+No
+Sure
+That’s something we’d like you to think about!
+this is something we&#39;d like you to think about
+It’s just an arbitrary set used to help us define what an “n-subset” is
+This is something we’d like you to think about. Usually we negate “there exists” to “for all” when the quantifier is referencing a variable, and the variable is being used in some expression to prove.Another hint is that the opposite of “there exists…” is “there does not exist…”
+Any valid proof technique is fine
+This is something we’d like you to think about!
+Try using \\ or the align environment 
+Ye
+The order doesn’t matter
+You’re supposed to solve q3 via a combo proof
+Yeah, you should aim to rephrase the question in such a way that uses mathematical notation instead of just plain words, and use that notation throughout the proof
+Try the slashes the other way i.e. \\ instead of //
+I mean you probably could and it would be fine, but in most cases, it is unnecessary and there are simpler ways of solving
+usually, if we want you to prove something using a particular method, we will ask you to do so in the problem statement. Otherwise, you will be free to use whichever proof method you wish.
+@680
+\bigcup
+Correct
+A one sentence justification would be nice
+no
+this is something we&#39;d like you to think about!
+@713
+yes
+the coefficient values have to be distinct
+yeah you can assume that $$k \geq 2$$
+you can assume these.
+nah
+This depends on the remainder of your proof, but most of the time, it is fine to just say &#34;let g be a grandmaster in the group&#34;
+a one sentence justification would be nice
+A one sentence justification would be nice
+that would still be invalid because you would be assuming what you are trying to prove
+this is something we&#39;d like you to think about!
+It returns the maximum value between $$p$$ and $$q$$. So, for example, if $$p = 30$$ and $$q = 20$$, then $$max(p, q) = max(30, 20) = 30 = p$$
+yes you should explain this, but this seems like some sort of variant of strong induction. So in instances like this, it is probably better to just use strong induction instead.
+yes, $$5^{n-k}$$ would be considered part of the coefficient, because $$5^{n-k} \in \mathbb{Z}$$, and is not a polynomial term.
+You may assume that the formula given in the problem holds true for all values of $$n$$. How/where you choose to incorporate this in your proof is up to you.
+Usually, you need two variables in the induction hypothesis, so you would have $$j$$ and $$k$$. In the induction step, you should still be aiming to prove that the $$k+1$$ case is true.
+nope :D
+yes
+No
+If induction is proving to be too difficult, try approaching the problem from a different perspective and/or using a different proof technique
+any proof method is fine
+A one sentence explanation would be nice
+this is something we&#39;d like you to think about
+There are no dead ends
+“There exists a walkway between ANY two sections…”Does this help?
+A bit of justification would be nice
+Nah
+Nah
+a one sentence justification would be nice
+1. you should justify this a bit
+2. you can assume $$\frac{k}{2} + 1 > \lfloor \frac{k}{2} \rfloor$$, but be a bit careful when it comes to claiming $$\lceil \frac{k}{2} \rceil > \lfloor \frac{k}{2} \rfloor $$
+great question. I think this comes down to how induction is built upon the idea of proving $$P(k) \implies P(k+1) \quad \forall k$$. Since it&#39;s hard to prove that implication for all values of k, if we show the implication to be true for an arbitrary value of $$k$$, then we don&#39;t have to worry about proving it for all $$k$$, because we would have already shown that since $$k$$ was arbitrary.
+
+Since $$k$$ is arbitrary, we say &#34;for some k&#34;, since we don&#39;t really know what $$k$$ is, but we just want it to be arbitrary.
+
+I can&#39;t quite put my finger on why &#34;for any k&#34; may be incorrect because I think there are valid arguments on both sides (for it to be logically acceptable or not). One such argument is that &#34;for any&#34; may be an implication of strong induction, but not in an accurate way. But one could also argue that &#34;for any k&#34; can mean the same thing as &#34;for some k&#34;
+
+Given this, my recommendation is to stick with convention and to just use &#34;for some k&#34;.
+You should justify this
+yes to both questions
+yes
+No. The answer will only be &#34;yes&#34; if there is a direct connection (i.e. you only need to take one walkway to get from the start location to the end location of the question)
+Yes, because $$1^a - 1^b = 0$$ and $$1000 \mid 0$$ because $$ \exists \, k$$ such that $$1000 \cdot k = 0$$.
+yes
+No. But if a dead end exists, Bethany must be able to find it.
+The induction step can be logical! The beauty of induction is that it doesn&#39;t just work for proving mathematical equalities; it can be used for much much more!
+yeah that&#39;s fine. Only your answer needs to be in closed form.
+$$S$$ is a dead end if you cannot leave $$S$$ to go to a different section. If $$S \rightarrow T$$ and $$U \rightarrow T$$, then $$T$$ would be a dead end.
+
+Since &#34;adjacent&#34; and &#34;neighbors&#34; are not defined in the problem, it is hard to accurately answer your question, because it depends on how you define these terms on your own.
+the former
+it&#39;s gotta be an integer!
+Sorry, but the deadline for regrades passes the Friday after grades are released.
+the $$(x, y)$$ coordinate plane that Sneha is placing snacks on is infinite, so she is placing an infinite number of snacks.
+should be up now
+showing that $$\binom{p}{j}$$ is a multiple of $$j$$ would not imply that the summand is a multiple of $$p$$.
+
+Instead, try showing that it is a multiple of $$p$$ if your goal is to rewrite it as $$k + 1 + pm + p(\text{other stuff})$$. Try expanding out the $$\binom{p}{j}$$ and use what you know about $$j$$ compared to $$p$$.
+either is fine
+It would still work. Though it is very rare to see binomial theorem used for $$(a + b)^n$$ when, for example, $$b = 0$$, because then it&#39;s just usually easier to simplify to $$(a + 0)^n = a^n$$
+is this true? for $$n = 5$$ and $$r = 5$$, we have $$\binom{n}{r} = \binom{5}{5} = 1$$
+
+a brief justification would be nice
+nah don&#39;t need to prove it
+I&#39;m not sure what you mean by this. If you divide $$x$$ by $$3$$, for example, the remainder is one of $$0, 1, 2$$, so there are $$3$$ remainders possible. And if, for example, $$x = 15$$, then $$3 \neq \lceil \frac{x}{2} \rceil$$
+It is infinite. If choosing to look at a section helps, then go for it, but you must ensure that it generalizes for all infinite grids, not just specific grids
+you should not assume this. This is something you should justify
+Suppose there are only 3 sections, $$S$$, $$T$$, and $$R$$. Since there must exist a walkway between each pair of sections, one possible set of walkways is $$S \rightarrow T$$, $$T \rightarrow R$$ and $$S \rightarrow R$$. In this case, $$R$$ is a dead-end, because if you are in section $$R$$, you cannot go to any other section by following the walkways.
+You can assume that there is an infinite supply of each snack at all times when Sneha is constructing the grid.
+The remainder would be $$a$$.
+Is this true? If $$x = 6, y = 3$$ and $$z = 9$$, then $$\frac{x}{z} = \frac{6}{9}$$ which is not an integer, and $$\frac{xy}{z} = \frac{18}{9} = 2$$, which is an integer, but $$\frac{y}{z} = \frac{3}{9}$$ is not an integer.
+yes that would be a valid rectangle
+@830
+they are not equally distributed. But you should be able to justify that there will always be 4 of the same snack on the plane. 
+you can assume this
+Consider an infinite Cartesian plane. At each point $$(a, b)$$ where $$a, b \in \mathbb{Z}$$, Sneha places one of the three snacks. You need to prove that no matter how she places the snacks, there will always be four points that form a rectangle such that the same snack is placed at each of those points.
+
+If this is still confusing, it would be a good idea to go to office hours so we can help clear up your confusions.
+PHP is only used for finite values.
+yes
+If you choose to use this in your proof, you should justify it. Though one sentence may be a bit little for the justification, so consider using a couple more sentences
+A one sentence justification would be nice
+A dead-end means that there is no walkway exiting the section. How that relates to connectivity is something you should think about.
+yes
+yep
+yes that is okay
+No. You should always be using the induction hypothesis in the induction step
+yeah you should briefly justify this
+no
+every point with integer coordinates has a snack.
+sure
+weak induction is fine
+a brief justification is fine
+yep
+sure
+you can explain it qualitatively/logically, but just be sure that you are using your induction hypothesis at some point.
+yes
+no
+yes
+sure
+no, because you need to prove it for all possible sets of lines
+no
+yes
+resolved
+nah
+this is beyond the scope of this class. There are other ways of checking connectivity, but may be worse in terms of time efficiency. Stay tuned for CIS1210 where you&#39;ll cover graph connectivity in more depth.
+
+That being said, you should not be using BFS/DFS in this course, as it would require a proof before using it.
+yes you can assume that is always true.
+yeah sure
+we&#39;ll be updating @827 when a TA decides to hold OH
+$$\mathbb{N}$$ is fine, because it is the notation for natural numbers, which is $$\{0, 1, 2, 3, ...\}$$
+https://www.cis.upenn.edu/~cis1600/current/exams.html
+
+Under &#34;Midterm 1&#34;, there are links to the practice problems and a practice exam.
+Unless specified otherwise, you should provide justification. If we are looking only for a numeric value, we will specifically say something along the lines of &#34;only your final answer will be graded&#34; or &#34;you do not need to show work for this problem&#34;
+Basically the issue arises from Steps 1 and 2.
+
+In step 1, we can say that there are five options for the fourth digit (namely 0, 2, 4, 6, 8). But after that, we can&#39;t quite say that for step 2, in choosing the first digit, there are only 8 options. This is because, if the digit we chose in step 1 is 0, then we actually have 9 options for the first digit.
+
+Since the amount of ways to perform a step is not constant based on previous steps, we would be unable to perform the multiplication rule following the same procedure outlined in Attempt 3.
+You should be more specific 
+Yeah, the definition is that if $$x \in \mathbb{Q}$$, then $$\exists a \in \mathbb{Z}$$ and $$\exists b \in \mathbb{Z} \setminus \{0\}$$ such that $$x = \frac{a}{b}$$.
+
+The definition does not require $$a$$ and $$b$$ to share no common factors, though we often include this constraint in our proofs for simplicity of the proof. 
+This procedure does not guarantee bin $$B_i$$ gets exactly $$n_i$$ objects. For example, it is possible that you choose the same bin on every step here.
+yes that is on the right track!
+yeah I think it&#39;s kind of hard to incorporate permuting multisets in this, because when we do those permutations, we have very few constraints. In this problem, we introduce a lot of constraints, and while it may be possible to incorporate these constraints by modifying how we permute the multisets, it gets (arguably) equally tedious.
+
+Casing, though sometimes tedious, is usually quite effective, so you shouldn&#39;t rule it out immediately!
+
+Also yeah, we&#39;ll be posting solutions sometime this weekend hopefully.
+you can still use $$(2 + 0)^n$$, but you will arrive at something different than $$\sum_{k=0}^n \binom{n}{k}$$, because when we did $$(1 + 1)^n$$, we were able to simplify nicely using the fact that $$1^m = 1$$ for any $$m$$, but we do not have that leverage when we do $$(2+0)^n$$.
+
+tldr: yeah it works, but it just gives you different information
+The total number of possible subsequences is indeed $$\frac{n(n+1)}{2}$$, but we only chose to look at a subset of them so that we could proceed with the later steps of the problem (i.e. generating a new subsequence from two of our $$n$$ subsequences).
+the first step is just arbitrary selecting the three positions where these three lovely humans will be placed. The second step handles ordering them by abiding to the constraints. 
+
+So the first step of just choosing where they could appear (ignoring who goes in which spot) can be done in $$\binom{11}{3}$$ ways.
+I think we&#39;ve proven this in a homework, so you don&#39;t have to justify it via a truth table on the exam.
+The best thing to compare the exam to is a past exam. So I encourage you to look at the 2018 midterm we posted on the course website.
+Since the question is asking us to show existence, providing a true example would qualify as showing existence.
+
+We break it up into two cases because we don&#39;t really know whether $$\sqrt{2}^{\sqrt{2}}$$ is rational or irrational. If it&#39;s rational, then great. But if not, then we can use this value to provide a different $$x$$ and $$y$$ where $$x^y$$ is rational.
+
+In essence, we are &#39;pretending&#39; that we don&#39;t know whether or not $$\sqrt{2}^{\sqrt{2}}$$ is rational, but regardless of its status, we can use it as is, or use it to create new values.
+It is not a necessity, but it is something I highly encourage to do. This is because without restating the claim, there is a higher chance of ambiguity. But if you restate the claim in your IH, it is clear to the proof reader exactly what you are assuming.
+There will be a homework released tomorrow, but it will be due on October 17th.
+This is not quite a proof for the Fundamental Theorem of Arithmetic because that theorem also mentions that the prime factorization is unique. That being said, strong induction is not needed for this proof. In fact, one can avoid induction completely by mentioning how the claim is just a corollary of the FTA, but for the purpose of example, we did a proof by strong induction.
+
+Also using FTA in the IS doesn&#39;t really make it a weak induction proof because it&#39;s not really getting reduced to the $$k$$ case (where you would use your weak IH).
+No. $$P(6, 5) = \frac{6!}{(6-5)!} = 6! \neq 6^5$$
+1. Given two distinct elements, $$a$$ and $$b$$, one must be larger than the other. So we are partitioning the set of all pairs into groupings based on what the largest value in the pair is.
+
+So if, for example, $$S = \{0, 1, 2, 3\}$$, then we would have $$S_1 = \{(0, 1)\}$$, $$S_2 = \{(0, 2), (1, 2)\}$$, and $$S_3 = \{(0, 3), (1, 3), (2, 3)\}$$. We partition like this because it is easy to calculate the cardinality of each $$S_i$$. Namely, $$|S_i| = i$$, but each $$S_i$$ is formed by the largest value in the pair.
+
+
+2. yes
+I would give a one sentence explanation in between each of the implications. So I would say $$p^2 = 6q^2 \implies 2\mid p^2$$ because since $$6q^2 = 2(3q^2)$$ is even, $$p^2$$ must also be even.
+
+And an explanation for $$2\mid p^2 \implies p = 2k$$ would be: &#34;we proved this in class&#34;
+nah, you can just say that it was proven in class/hw
+$$x$$ and $$y$$ are relatively prime when $$x$$ and $$y$$ share no common factor other than $$1$$
+wait what do you mean by &#34;ignore 2&#34;
+@940
+Either is fine
+can you point out which parts of the solution are confusing so I can clarify those?
+we say that $$x$$ is divisible by $$y$$ if we can write $$x = yk$$ for some $$k \in \mathbb{Z}$$. So for $$x = 0$$, and any integer $$y$$, does there exist a value of $$k$$ such that $$yk = x = 0$$? (Hint: yes)
+1. you should not think of the objects as &#34;indistinguishable&#34; when they are in the same bin.
+
+2. yes
+
+3. @1007
+See the discussion in @956. This is mostly okay to do, but is risky due to potential ambiguity
+Yes
+Because P(7, 5) does not guarantee that one of the five characters chosen is a 2.
+Can you explain why you are multiplying $$4 \cdot 3 \cdot 2 \cdot 1$$? If it&#39;s because there are &#34;four options&#34; for the first slot, and &#34;three options&#34; for the second slot, and so on, then you should be dividing by $$4!$$ because you&#39;ve already fixed the last card to be the non-four-of-a-kind.
+
+If you are doing that multiplication because of the suits, then it is important to realize that the order of the cards within a hand doesn&#39;t matter.
+yeah you can assume that. There isn&#39;t really too much to prove here because it is just a definition, but if you were to explain why the definition makes sense logically, the way you are approaching it is fine.
+nah no cheat sheet allowed
+sure
+I think the problem was trying to get you to avoid that approach altogether, but such an approach still works.
+because 5! would only work if all the characters were distinct, but that&#39;s not guaranteed to happen when you choose 5 from the 8 (because you could get repeat 2s)
+you can just say &#34;by MR&#34;
+she still has a,b, and c slices
+It&#39;s like a massive union of a bunch of sets.
+
+So like $$\bigcup_{i=1}^k A_i = A_1 \cup A_2 \cup ... \cup A_k$$
+As long as it’s legible to at least one of us, you should be good. Shouldn’t be something to worry about.
+no
+If you think your work is fully justified and exhaustive, then that’s fine
+No recitation and no worksheet! Nothing to worry about!
+one slice
+The question mentions nothing about a graph. However, it is not necessarily true that in the arrangement of birdhouses and paths, one can always travel from birdhouse $$a$$ to birdhouse $$b$$ via a series of paths.
+3
+Sure
+yeah that&#39;s one way of thinking about it
+What do you mean by P(A)? If you mean powerset, then no, because it is not true that $$P(A) \cup P(B) = P(A \cup B)$$ because $$\{a, b\} \in P(A \cup B)$$ but $$\{a, b\} \notin P(A) \cup P(B)$$
+
+If $$P(A)$$ means something else, then it depends on what that &#34;something else&#34; is, which means you may not be able to safely break it down in the way you suggested.
+Yes to everything
+You should always define your sample space explicitly. Otherwise, you do risk losing points.
+
+You can use ... notation so long as clarity is maintained and no ambiguity is introduced.
+
+Sample spaces can be defined using words only. Numbers and symbols are also always welcomed.
+you can just say that
+Yeah, on the template, there is a spot for you to list collaborators
+yeah
+that&#39;s something we&#39;d like you to think about! it may help to note that $$n 
+@1026
+you should not round your answers. If you want to calculate the values, then that&#39;s okay, but if you want to leave it as the sum/difference/product/quotient of some values, then that&#39;s fine too.
+no
+This is something you should think about! To get you started, do all disconnected graphs have exactly 2 connected components?
+Don’t round. Exact.
+Is this true? Consider x=9, y=4 and k=6
+yes
+not necessarily
+For the outcomes where $$w_1 = w_2 = i, i \in \{1, 2, 3\}$$, three things need to occur:
+The prize is assigned to door $$i$$The contestant chooses door $$i$$The host opens door $$j$$ where $$j \neq i$$
+
+Let&#39;s analyze the probability of each of these:
+Since the prize is equally likely to be assigned to any of the doors, and there are $$3$$ doors, there is a $$1/3$$ chance of the prize being assigned to door $$i$$Since the contestant is equally likely to choose any of the doors, and there are $$3$$ doors, there is a $$1/3$$ chance of the contestant choosing door $$i$$The $$2$$ remaining doors both do not contain the prize, so the host can choose either of them. Since there are $$2$$ remaining doors and both have an equal chance of being chosen, there is a $$1/2$$ chance of the host choosing door $$j$$
+How many outcomes are of this form? We can use multiplication rule:
+Choose what value $$i$$ is - $$3$$ waysChoose what value $$j$$ is - $$2$$ ways
+So there are $$6$$ total outcomes of this form.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For the outcomes where $$w_1 = i$$ and $$w_2 = j$$ where $$i, j \in \{1, 2, 3\}$$ and $$i \neq j$$, three things need to occur:
+The prize is assigned to door $$i$$The contestant chooses door $$j$$The host opens door $$k$$ where $$k \neq i, j$$
+Let&#39;s analyze the probability of each of these:
+Since the prize is equally likely to be assigned to any of the doors, and there are $$3$$ doors, there is a $$1/3$$ chance of the prize being assigned to door $$i$$Since the contestant is equally likely to choose any of the doors, and there are $$3$$ doors, there is a $$1/3$$ chance of the contestant choosing door $$j$$There is only one remaining door the host can open that is not $$i$$ or $$j$$, so there is a $$1$$ chance of the hosting choosing this remaining door.
+How many outcomes are of this form? We can use multiplication rule:
+Choose what value $$i$$ is - $$3$$ waysChoose what value $$j$$ is - $$2$$ waysChoose what value $$k$$ is -  $$1$$ way
+So there are $$6$$ total outcomes of this form.
+it needs 4 pokishaan cards
+the latter
+I think the lecture notes mention that if $$H$$ is a connected component in $$G$$, then $$H$$ is not contained in any other connected subgraph of $$G$$
+A leaf $$v$$, which has degree 1, can only be a part of path $$P$$ if one of $$P$$&#39;s endpoints is $$v$$. If otherwise, then suppose we have a path $$P'$$ where $$v$$ is within the path, but not one of the endpoints, then $$P' = ... - u - v - w - ....$$ which would mean that $$v$$ would have two neighbors, and hence degree 2 (contradiction).
+
+So when we remove $$v$$, the only paths we lose are those that have endpoint $$v$$. But since $$T' = T \setminus \{v\}$$ has all vertices of $$T$$ except $$v$$, all paths between non-$$v$$ vertices in $$T$$ remain in $$T'$$, so it&#39;s connected.
+No
+@1074
+I advise against it since we have not covered this in lecture yet. However, you could, in theory, &#34;derive&#34; this distribution with some sort of justification. So it&#39;s totally up to you. Just try not to use it without some sort of accompanied proof/justification of why it works.
+edge
+That fact is basically saying if $$|V| = n$$ and $$|E| = m$$, then $$|CC| \geq n - m$$, where we use the notation $$|CC|$$ to denote the number of connected components.
+
+In the case when $$n = m$$, then you can conclude that a graph has at least $$0$$ connected components, which is not too groundbreaking of a conclusion. In general, this fact does not give us much information when $$m \geq n$$, because you can always construct a connected graph with $$n$$ vertices and $$m$$ edges when $$m \geq n$$, and such a connected graph would only have $$1$$ connected component. This fact is more useful when $$m 
+yes those are distinct cases
+resolved
+Yeah that’s fine
+what was the proof by construction that you saw in class? In general, you need to be very careful when doing proofs by construction, especially with graph problems, as you need to ensure that you are constructing all possible graphs.
+wait what about that isolated dot? it is has zero roads connected to it, and zero falls into the category of &#34;at most one&#34;.
+yeah, $$V$$ is the set of vertices, of which, leaves are included.
+You can just say “by definition”
+Sure
+Yep
+nah
+yes, you&#39;re summing on vertices whose degree is greater than or equal to 3
+@1112
+no
+A connected graph has 1 connected component (which is itself).
+A vertex with degree 0 is not considered a leaf.
+Yes two can be selected
+@1176
+no
+yeah but something like A --&gt; B --&gt; C --&gt; E --&gt; A would have him visit an even number of vertices in a loop. You need all of these loops to visit an odd number of locations.
+yeah it&#39;s fine, but we really encourage to use mathematical notation for the sake of clarity and to avoid ambiguity.
+this is something we&#39;d like you to think about
+the former
+yes
+I wouldn&#39;t really call them indistinguishable, since the &#34;points&#34; are distinguishable. And since a route connects two points, one could define a route by the points it connects.
+actually, you can! We can say something a bit stronger in that &#34;every tree has at least two leaves&#34;, but &#34;at least two&#34; falls under the category of &#34;at least one&#34;
+you can leave it blank
+yes
+those would be different. but in that case, you have more than $$n$$ routes involved total
+yeah
+No
+Yeah
+Yeah
+You should justify your answer. How you choose to do that is up to you.
+All cycles anywhere need to be odd 
+so like ryan starts at some city and watches a performance, and then travels to another city (that he can get to via a flight), watches a performance there, and then takes another flight to watch a performance and so on until he reaches back where he started.
+
+You need to show that if no matter how he traveled across these cities, he always watched an odd number of performances, then there is a city that has less than or equal to 2 flights going out to other cities.
+yeah
+those would be considered different situations
+The latter 
+What we mean by this is that if there is city $$A$$ and city $$B$$ then there is at most one flight going directly between $$A$$ and $$B$$.
+while the exam may not be entirely focused on content solely from before midterm 1, you should not forget about what you learned prior to the midterm. This is to say that it is not unlikely for you to see problems on the second midterm that require skills you obtained (such as proof techniques, counting techniques, PHP, PIE, etc, etc) from before the first midterm to solve them.
+yeah I made a mistake in @1174. There exists some literature in which a leaf is defined as only having degree 1. But according to this class&#39;s lecture notes, &#34;A vertex of degree greater than 1 in a tree is called an internal vertex, otherwise it is called a leaf&#34;.
+
+So we will let a leaf have degree 1 or 0.
+The former
+no
+the cool thing about probability is that the word &#34;independent&#34; does not always match the english definition of &#34;independent&#34;. Beyond that, I am unable to comment on your solution.
+No
+A one-two sentence justification for all three of those would be nice
+no to the first question. yes to the second
+yeah
+a brief justification would be nice
+nah you can assume this
+ordered 8-tuple
+exactly
+not that I&#39;m aware of. If the entire block is math, then you could just add $ to the beginning and end, but then you&#39;ll have to deal with new lines and such.
+a one sentence justification would be nice
+No you should take assume it. But maybe you could address this separately in your solution
+&#34;exactly&#34;
+A graph consisting of exactly one vertex and zero edges would be considered a tree. By the way we have defined &#34;leaves&#34; in this class, this vertex would be considered a leaf.
+G is not the complete graph. You can assume that E and E’ are sets of edges that are not equal, but also not necessarily disjoint.
+Selina only chooses one hard drive, not p. However, it is possible that Charis chooses $$p$$ hard drives such that none contain music.
+Exactly
+Your answer should be in terms of n, p, and c
+they should be up now
+sure
+yes to both questions
+yes
+exactly
+It&#39;s not just that &#34;you can get from one store in A to another store in B&#34;, but rather, &#34;you can get from one store in A to another store in B using a single road&#34;.
+a brief justification would be nice
+your answer should be in terms of c, n, and p
+a brief justification would be nice
+connected
+yep
+I don&#39;t think we&#39;ve covered Bayes&#39; Theorem in class so if you were to use it, you should start with the formula for conditional probability that we have covered and then &#34;derive&#34; Bayes theorem from there.
+no this is not closed form.
+a very short explanation would be nice
+a brief justification would be nice
+yeah
+This overcounts. Consider the counting question: &#34;From $$n$$ distinct elements, choose $$p+1$$ of them&#34;. Expression 2 clearly answers this question. We would think that we could construct a counting procedure in that we &#34;select p elements&#34; in step one and then &#34;select 1&#34; in the second step. But this will overcount some cases.
+
+For example, suppose $$n = 4$$ and $$p = 2$$. And suppose our elements are $$\{A, B, C, D\}$$. Then we have to select $$p + 1 = 3$$ elements. So suppose in step one, where we select $$p = 2$$ elements, we choose $$A$$ and $$B$$. And suppose in step two, where we &#34;select one&#34; of the remaining, we select $$C$$. Then, our collection is $$\{A, B, C\}$$.
+
+But we could instead in step 1 select $$A$$ and $$C$$. And then in step $$2$$ we could select $$B$$, so our collection would be $$\{A, B, C\}$$. 
+
+So we&#39;ve obtained the same collection in two different ways from the counting procedure which indicates that we overcounted.
+A brief justification would be nice
+Sure
+there was a mistake in the problem statement. There is an additional detail in that there does not exist a pumpkin patch that has zero bridges connecting to it. The problem set has now been updated to reflect that change. 
+yes, but we&#39;re looking for a vertex adjacent to exactly 2 leaves.
+yes they are distinct
+sure
+try expanding whatever sum/product you have and see if any simplifications can be made. else, come to office hours and we&#39;ll be happy to provide assistance!
+blank hard drives are distinct
+
+this is something you should think about
+sure
+a brief justification would be nice
+you don&#39;t have to rewrite anything so long as you are certain that the logic holds symmetrically.
+you can assume this
+yes
+But that is only for a specific partition. You must show the edge exists for all partitions. For example, with $$A = \{2\}$$ and $$B = \{1, 3, 4\}$$, then there does not exist an edge from an $$a \in A$$ to a $$b \in B$$
+the opposite of &#34;always&#34; is &#34;not always&#34;
+you cannot assume this
+not necessarily. You would have to show that these are also independent (by using the defintion of independence)
+yes
+a brief justification would be nice
+Yeah it is 1
+Justify it a bit
+Yes
+A brief justification would be nice
+Yeah
+yeah
+yeah we&#39;ll take note of it. might be good to email cis1600@seas.upenn.edu with this information as well.
+yeah
+for the first question, Jack does not pay 20 candies.
+for the second question, either way is okay.
+Yes that is correct. You should be competing E[Y]
+yes
+yeah
+it should take into account the buy-in
+An Eulerian graph is a graph that contains an Eulerian circuit. An Eulerian circuit need not be a cycle.
+
+for the last question, you should briefly justify this
+E[Y]
+The theorem states that the graph G must be connected. 
+A one sentence justification would suffice 
+The problem is asking you to prove that you can still reach any house from any other house even if construction were to block off a bridge. If construction blocks off a bridge, that means that you are unable to travel on that bridge in any direction.
+Not directly. You should provide some justification as to why this is the case
+A brief justification would be nice
+yep. Please email the TAs of the recitation you wish to attend (also cc your normal recitation TAs) and let them all know your plan of attending recitation.
+uh I guess so, try approaching it similarly to how you approached the other probabilities
+Yeah that has 16
+The latter
+2
+you are free to express your fractions in decimal form, however, please refrain from rounding
+Email cis1600 and your recitation TAs.
+We can&#39;t quite model it as a graph problem (yet) because the walkways could be either only in one direction or bidirectional. If you were to make the walkways your edges, you would somehow have to take into account the direction of edges, which is not something we can do quite yet with what we know about graphs.
+You should not be showing independence using those formulas. We’ve only shown in class that independence implies those two formulas but we haven’t shown the converse to be true.
+No. You must provide a yes/no answer and justify it only by using your answer from part b.
+the latter
+you can assume it
+sure, but you can assume that the number of ghouls in each house is finite.
+okay
+They walk through every road exactly once. It is not necessarily true that every store is visited only once.
+Yeah I guess it&#39;s fine, but this notation is not very common. It&#39;s more common to define an event and then find the cardinality in terms of the variable you define for the event.
+at this point in time, no. We have only proven &#34;If $$X$$ and $$Y$$ are independent then $$\mathbb{E}[XY] = \mathbb{E}[X] \cdot \mathbb{E}[Y]$$&#34;. But we have not shown the converse to be true.
+Yeah you can consider them as distinct
+Yeah
+Sure
+yes, assume that it is simple
+a brief justification would be nice
+yeah
+this is something we&#39;d like you to think about
+yes, there is a non-trivial fact that may assist in solving the problem, however, I do not believe we have seen this in the course yet, and trying to derive it may be arguably equally (or more) tedious than the method you have already developed to solve the problem.
+yeah
+you can assume that they are distinguishable
+you should show some work in between the summation and the final answer. Maybe splitting apart your summation into the sum of the individual terms would be a good idea
+yeah that&#39;s probably just a typo. IH should be $$k \geq 1$$.
+
+A tree has exactly one spanning tree, which is itself.
+a brief justification would be nice
+Yeah
+For the sake of the problem, we will say that Kyle is not a TA. But in real life, he is a TA (though that may be up for debate at times)
+I mean it really doesn&#39;t hurt to include it since it&#39;s so little to include, but up to you I guess.
+you should think about this. The first digit is guaranteed to be a 1. So what does this mean about the existence of a second digit?
+Kyle does need to buy a shovel for each TA. If you choose to model this question as a graph question, then what the shovels are depends on your definition. You don’t know how many TAs there are, but each TA must receive exactly one shovel
+Yeah
+Correct. There must not be an edge between two beginner nodes. The same holds for intermediate and advanced.
+yes
+The claim is saying that if the max degree in a graph is $$k$$, then the graph can be colored using $$k+1$$ colors. This is not to say that this is the minimum number of colors needed to color the graph. 
+$$d$$ represents the least amount of alliances a TA can have. Think of it as a lower bound. You need to show that Kyle needs to buy at least 2d shovels
+The issue with the graph that you presented is that $$\chi(G) = 2$$, not $$3$$ as specified in the question. 
+
+You are not allowed to assume that the number of vertices is greater than or equal to 3.
+No
+Yes. Each TA is allied with at least d other TAs.
+no, you are not required to use Markov&#39;s
+No
+hi, yes.
+The graph you provided in your example does not have $$\chi(G) = 3$$, it has $$\chi(G) = 2$$. Note that $$\chi(G)$$ represents the minimum number of colors needed to color $$G$$.
+a brief justification would be nice
+&#34;prove that Kyle needs to buy at least 2d shovels&#34;
+Instead of thinking of $$\frac{(n-1)!}{n!}$$ being computed as the product of probabilities, it is probably better to think of it as being computed as $$\frac{|E_i|}{|\Omega|}$$. The sample space is all ways that the $$n$$ people can get their hats back which means $$|\Omega| = n!$$. The event $$E_i$$ is the event that the $$i$$th person gets their hat back.
+
+So you can think of $$|E_i|$$ as computing the amount of permutations of $$\{1, ..., n\}$$ where $$i$$ is in the $$i$$th spot. This can be done in $$(n-1)!$$ ways.
+
+Thus, $$Pr[E_i] = \mathbb{E}[X_i]= \frac{(n-1)!}{n!}$$
+a brief justification would be nice
+This does work mathematically, but is not super common. 
+A graph that is $$4$$-colorable is not always $$3$$-colorable.
+
+However, a graph that is $$3$$-colorable is always $$4$$-colorable.
+yeah
+Why do you feel like these probabilities should be different? Both ways should yield $$\frac{2}{36}$$. The difference between indistinguishable and distinguishable comes in how the sample space is defined, in that with the distinguishable case, our sample space is uniform, but in the indistinguishable case, it is not.
+yeah
+a brief justification would be nice
+This is something you should think about! It&#39;s a nice exercise of applying LOE (potentially a couple of times).
+You’ll have the weekend off to study. The next homework will be due after the exam
+Not necessarily
+no, you cannot assume that
+Sure
+yes!
+I think proof by construction is sometimes alright when proving existence of a graph. For example, if we were asked to prove that &#34;there exists a tree with exactly two leaves&#34;, I could provide a method of construction.
+
+However, in general, proofs by construction aren&#39;t too great and can be finicky at times because we need to be considerate of generalization for all graphs within our procedure (i.e. not making any logical leaps that would not work for all graphs)
+yes
+The left hand side is taking the sum of the degrees of all vertices of the graph. From the handshaking lemma, we know that $$\sum_{v \in V} deg(v) = 2|E|$$, and the proof for this is given in the example referenced.
+
+We don&#39;t know the number of edges, but since the sum of the degrees is 2 times the number of edges, we can conclude that the sum of degrees must always be even.
+resolved
+After removing the vertex, the degree of the remaining vertices can only decrease (as we are also removing edges). Thus, the IH is still able to be invoked because the max degree of the remaining graph is at most k.
+thanks for pointing this out. they are the same thing.
+we had fall break
+We don&#39;t explicitly discuss directed graphs in the fall, but vertices have an indegree (number of edges coming in) and an outdegree (number of edges leaving). The only path in the graph would be $$u \rightarrow v$$ as you described. 
+
+For the chessmaster problem, we can rephrase it in directed graph terms: consider a graph $$G$$ on $$n$$ vertices, such that between every pair of vertices $$x, y$$ there exists edge either $$(x, y)$$ or $$(y, x)$$. Show that there exists some vertex $$v$$ such that the shortest path distance from this vertex to every other vertex is at most 2. 
+
+We can prove this claim by induction on the number of vertices similar to the proof given on the HW. 
+You can leave it in the form of the second line
+This is something we’d like you to think about
+Yep
+What you induct on really depends on the problem. Also, both induction on edges and induction on vertices have their own separate issues, so it just depends.
+
+For example, inducting on vertices can sometimes be annoying because when you remove a vertex, you also have to remove all incident edges. But at the same time, inducting on vertices can be nice when you can guarantee existence of a specific type of vertex in a graph (i.e a leaf in a tree)
+
+What&#39;s nice about edge induction is that when you remove an edge, you don&#39;t have to remove any vertices, but removing edges can disconnect the graph, and removing edges in general may not be as easy to generalize as removing vertices.
+yeah
+yeah that could probably work
+yep
+We know that $$|A| \geq 1$$. So we use the fact that $$xy \geq x$$ for $$y \geq 1$$
+You should define the sample space unless otherwise specified. If a question does not require you to define a sample space, it will be indicated in the question.
+$$B = \{c, d, e\}$$ does not work, because $$Pr[A] = \frac35 = Pr[B]$$ but $$Pr[A \cap B] = \frac15$$. And we see that $$Pr[A \cap B] \neq Pr[A] \cdot Pr[B]$$, so they would not be independent.
+yeah defining a sample space would probably be unnecessary, but the way I would go about doing it is basically what you mentioned, and that would indeed not be uniform.
+linked in @1576
+The diagram does not match the description of “ancestor”. In the diagram, u is an ancestor of v and u is an ancestor of w
+For c, $$Pr[B] = \frac{|B|}{|\Omega|} = \frac{|\Omega|}{|\Omega|} = 1$$. To deem if $$A$$ and $$B$$ are independent, we need to check if $$Pr[A] \cdot Pr[B] = Pr[A \cap B]$$.
+
+We have $$Pr[A] = \frac{|A|}{|\Omega} = \frac{3}{5}$$. And we have that $$A \cap B = \{a, b, c\}$$ so $$Pr[A \cap B] = \frac{|A \cap B|}{|\Omega|} = \frac{3}{5}$$. 
+
+So since $$Pr[A] \cdot Pr[B] = \frac35 \cdot 1 = \frac35 = Pr[A \cap B]$$, we have that $$A$$ and $$B$$ are independent.
+
+For part d, &#34;pairwise independence&#34; means for any two events, they must be independent. You can verify independence in the same way as we did above. &#34;mutual independence&#34; means that for any subset of the events, the probability of their intersection must equal the product of the individual probabilities.
+
+You can see that $$Pr[A] = Pr[B] = Pr[C] = \frac12$$. And we have that $$A \cap B \cap C = \{b\}$$, Thus, since $$Pr[A \cap B \cap C] \neq Pr[A] \cdot Pr[B] \cdot Pr[C]$$, we can conclude that A, B, and C are not mutually independent.
+cc works just fine!
+For any undirected graph $$G(V, E)$$, the handshaking lemma tells us that $$\sum_{v \in V} deg(v) = 2|E|$$
+There are $$n-2$$ equivalence classes that do not have the same elements as any other equivalence classes.
+resolved
+An m-augmenting path must be of odd length. This is because an m-augmenting path is an m-alternating path. So if you consider an m-augmenting path that traverses the vertices in the following order: $$v_0, v_1, v_2, ..., v_{2k+1}$$, we have by definition that $$v_0$$ and $$v_{2k+1}$$ are unsaturated, which means that $$\{v_0, v_1\}$$ is not in the matching, but $$\{v_1, v_2\}$$ must be. And $$\{v_2, v_3\}$$ is not in the matching, but $$\{v_3, v_4\}$$ is. Note that in order for the endpoint of the path to be unsaturated, we need $$\{v_i, v_{i+1}\}$$ to not be in the matching (where $$v_{i+1}$$ is the endpoint), which means that (by our pattern), $$i+1$$ is odd. So that&#39;s why our vertices ended with $$v_{2k+1}$$, suggesting that our path is of odd length. 
+yep that&#39;s fine
+Yes, a counterexample would suffice.
+If a cereal goes well with $$x$$ types of milk, then for every milk, it must go well with no more than $$x$$ types of cereal. So in a sense, $$x$$ is the &#34;minimum&#34; number of milks a cereal can go well with. But at the same time, we do not know the exact value of $$x$$.
+Yeah, a hamiltonian cycle is a cycle, so it will start and end at the same vertex
+A relation defined on the empty set is an equivalence relation.
+We&#39;re basically counting the number of edges that &#34;leave&#34; $$A$$ and enter $$N_G(A)$$. We first conclude that there must be $$n|A|$$ edges from $$A$$ to $$N_G(A)$$, but that can be upper bounded by the second sentence by shifting our focus to $$N_G(A)$$ and seeing that there are at most $$n|N_G(A)|$$ edges from $$N_G(A)$$ to $$A$$. Note that there must be the same amount of edges going from $$A$$ to $$N_G(A)$$ as there are going from $$N_G(A)$$ to $$A$$ (in fact, they are the same edges). Since we have at most that many edges, we have an upper bound, so composing the two results together, we get $$n|A| \leq n|N_G(A)|$$
+resolved
+That is a fine understanding, but the inequality also indicates that there are more TAs than there are seats available in the k rows
+The latter
+$$\frac{0}{0}$$ is undefined, so that means that we do not have $$0 \mid 0$$, therefore, $$(0, 0) \notin R_6$$, so it is not reflexive. 
+
+Since $$0 \notin \mathbb{Z^+}$$, we do not run into this issue with $$R_5$$.
+This is something you should think about. Take a look at the lecture notes as I think they are a great source in answering your question (particularly the end of 11T).
+They can seat themselves in at least $$k$$ rows. Note that &#34;exactly&#34; $$k$$ rows qualifies as being &#34;at least&#34; $$k$$. 
+I guess this depends. Like if your graph had vertices $$u$$ and $$v$$, and the only edge in the graph was $$u - v$$, then for set $$S = \{u, v\}$$, we have $$N(S) = \{u, v\}$$, and so $$u \in N(S)$$ and $$v \in N(S)$$
+
+But if the graph was just two isolated vertices $$u$$ and $$v$$, then for $$S = \{u, v\}$$, we have $$N(S) = \emptyset$$. And here we have $$u, v \notin N(S)$$
+Both are fine, but they depend on what the remainder of the proof looks like. If what you are proving depends on the arbitrary-ness of $$S$$, then use the first one. But if what you prove works for all subsets, then the latter is fine.
+A counterexample suffices to disprove a statement.
+1. this is something we&#39;d like you to think about.
+2. yeah
+yeah
+@1672
+No
+no, but see the clarification in @1683
+It is not true that $$|N(R \cup G)| = 0$$. See the discussion in @1689
+not entirely sure what the OH schedule will look like in the coming weeks, but I&#39;m sure there will be some OH sessions in between the final homework being due and the final exam.
+@1696
+they can like multiple kinds of cereal
+does @1689 help?
+g&#39;day.
+
+The esteemed Professor Rajiv Gandhi will arrive after the $$k$$th minute has passed.
+this is something we&#39;d like you to think about (or maybe I should say &#34;have thought about&#34; seeing as I&#39;m replying a bit late oops sorry)
+Yes and yes.
+sure
+you should always define a sample space unless mentioned otherwise. so yes.
+Open form is fine for 1a
+I think it’s \circ
+they up
+see some examples in Lecture 9H. It is also denoted as the PMF.
+yep
+It can be in terms of $$|A|$$
+You can assume that you can always fit $$k$$ pawns on each row. That is, it is not necessarily true that each pawn will occupy one square. So there could be many pawns on a single square, but they will always all fit on the row.
+He removes all of the pawns from exactly one of those sets.
+Here, the term &#34;coloring&#34; just means that we are assigning colors to the edges without the constraint of edges incident to the same vertex having different colors. So the Ramsey number is saying if $$R(k, l) = n$$, then for any assignment of colors (either red or blue) to the edges of the complete graph on $$n$$ vertices, you can find a red clique of size $$k$$ or a blue clique of size $$l$$.
+We defined indicators in such a way that $$X = X_1 + X_2 + ... + X_n$$. So $$\mathbb{E}[X^2] = \mathbb{E}[(X_1 + X_2 + ... + X_n)^2] = \mathbb{E}[(X_1 + X_2 + ... + X_n)(X_1 + X_2 + ... + X_n)] $$
+
+Multiply the two expressions to get: 
+$$\mathbb{E}[X_1X_1 + X_1X_2 + ... + X_1X_n + X_2X_1 + X_2X_2 + .... + X_2X_n + ... + X_nX_1 + X_nX_2 + ... + X_nX_n]$$
+
+We&#39;ll &#34;group together&#34; terms of the form $$X_iX_i$$, so we have:
+
+$$\mathbb{E}[X_1X_1 + X_2X_2 + ... + X_nX_n + X_1X_2 + X_1X_3 + ... + X_nX_{n-1}]$$ (just rearranging the terms in a friendly way here).
+
+Use LOE: 
+$$\mathbb{E}[X_1X_1] + \mathbb{E}[X_2X_2] + ... + \mathbb{E}[X_nX_n] + \mathbb{E}[X_1X_2] + \mathbb{E}[X_1X_3] + ... + \mathbb{E}[X_nX_{n-1}]$$
+
+The first $$n$$ terms can be grouped into one summation, and the last terms will have their own summation:
+
+$$\sum_{i=1}^n \mathbb{E}[X_iX_i] + \sum_{i \neq j, 1 \leq i, j \leq n} \mathbb{E}[X_iX_j]$$.
+
+Finally, we can just rewrite some terms to match the expression:
+
+$$\sum_{i=1}^n \mathbb{E}[X_i^2] + 2 \sum_{i 
+
+
+same thing
+no
+ye
+$$n \geq 1$$
+nope!
+The chromatic number refers to the minimum number of colors needed to color the graph. So while a graph with maximum degree $$\Delta$$ is $$\Delta + 1$$ colorable, there are some graphs with max degree $$\Delta$$ that can be colored in less than $$\Delta + 1$$ colors.
+
+The discussion in @1497 may be of interest
+they are linked in @1723
+No. You should also consider the situaiton in which the first TA is the only person on team pidgeon
+a set of mappings suffices
+You cannot assume that $$n > 2$$. Piecewise is fine.
+@1475
+casework is fine
+this is something we&#39;d like you to think about
+any choice of functions is fine so long as it satisfies the conditions
+they up
+
+yeah
+no
+Yes
+This is something we&#39;d like you to think about. Condition 1 might be of interest.
+For the first question no. For the second question, this is something we&#39;d like you to think about.
+Any fully mathematically and logically sound and correct solution will receive credit. How you choose to do that is up to you. This means that the memoryless property is not required.
+it&#39;s fixed
+yeah, it&#39;s provided for free in @1718
+Yes
+sure
+yeah
+sure
+you could, but you might risk losing points. this is why we encourage you to always show your work!
+yes you can say that without justification
+either is fine
+ah shoot a bit late with this response, but I guess it doesn&#39;t hurt to include a sample space! for these questions, it may not have been necessary in solving the problems.
+not really. remember, $$R(k, \ell)$$ is the smallest number $$n$$ such that any graph with $$n$$ vertices has a clique of size $$k$$ or an independent set of size $$\ell$$.
+that was the week of the exam/fall break, so there were no lectures.
+A one sentence justification wouldn’t hurt
+not necessarily
+It&#39;s mainly due to the strictness of the bound. While saying that $$\sum_{v \in V} deg(v) > 5n$$ is not false, the value of $$5n$$ is a weak lower bound. We can see this because (for non-trivial values of $$n$$) we would also be able to say $$\sum_{v \in V} deg(v) > 5n+1$$ or $$\sum_{v \in V} deg(v) > 5n + 2$$ and so on. And those claims would indeed be true. Since &#34;degree&#34; takes on an integer value, when considering the sum, it is best to lower bound by the absolute minimum value of the degree (that a vertex can have), which in this case is $$6$$. Then, we have a much stricter lower bound, which helps with the calculations
+how grades are handled are up to the professor. You should direct any questions you have about grades to the professor (via email or office hours). 
+&#34;Maximal&#34; usually refers to something that cannot be extended. &#34;Maximum&#34; means the largest value for a particular quantity. When it comes to paths, a maximal path is a path that cannot be extended. For maximum path, let $$P$$ denote the set of paths in the graph. A path $$Q \in P$$ is said to be a maximum path if the length of $$Q$$ is greater than or equal to the length of $$R$$ for all $$R \in P$$. 
+$$(\sum_{i=1}^n X_i)^2 = \sum_{i=1}^n X_i^2 + \sum_{1 \leq i, j \leq n, i \neq j} X_i X_j$$
+
+Or equivalently, $$\sum_{i = 1}^n X_i^2 + 2 \sum_{1 \leq i 
+
+To calculate the number of terms in the second summation, let&#39;s view the first equation I provided. There are $$n$$ options for $$i$$. There are $$n-1$$ options for $$j$$ because we must have $$i \neq j$$. So the second summation has $$n \cdot (n-1)$$ terms.
+
+It&#39;s a good exercise to verify that the two expressions I provided are equivalent, and even better to understand why they are equivalent.
+@1115
+take a look at the discussion in @1689
+not closed form
+depends on context. Usually refers to vertices (as we are usually coloring vertices). It&#39;s better to define the size of a graph in terms of the size of its sets (like the size of the vertex set, or the size of the edge set).
+for the sequence 1, 3, 2, 5, 4, the subsequence 1, 2, 4 is strictly increasing. subsequences need not be constructed from consecutive values in the sequence
+@1852
+edges and arcs are the same thing. A self-loop is when you have an edge $$u \rightarrow u$$ (an edge from a vertex to itself)
+This is information that we are unable to provide at this point in time. However, we may reveal this information sometime in the coming days
+$$X_i$$ is an indicator that is $$1$$ when the $$i$$th bin is empty. In other words, for each of the $$n$$ balls, we want them to land in a bin other than bin $$n$$. Thus, for a given ball, there are $$n-1$$ &#34;good&#34; bins that it can fall into (we subtract 1 to remove bin i). There are $$n$$ total bins. So the probability that a single ball does not fall into bin $$i$$ is $$\frac{n-1}{n}$$. Use independence to see that the probability that all $$n$$ balls do not fall into bin $$i$$ is $$(\frac{n-1}{n})^n)$$. Thus, $$Pr[X_i = 1] = (\frac{n-1}{n})^n$$
+Note $$K_{3, 3}$$ has $$|V| = 6$$ and $$|E| = 9$$. We use $$|E| \leq 2|V| - 4$$ to reach the contradiction (because it is tighter than $$3|V| - 6$$). If we were to use $$|E| \leq 3|V| - 6$$, then we get $$9 \leq 3 \cdot 6 - 6$$ which is a true statement and does not arrive at a contradiction
+I don&#39;t recall this being covered in class. If it has been, and I have missed it, then the rule of &#34;anything that we have seen in this class is fair game for the final&#34; still stands.
+I believe we are only releasing practice problems for the final and not a practice final exam. I encourage you to review the practice exams we posted for the midterm! Solutions to the practice problems will (hopefully) be posted shortly.
+The lecture notes mention that $$R$$ is symmetric iff for each edge $$(a, b) $$ and $$a \neq b$$ in $$G$$, we have $$(b, a) \in G$$. So basically there will be a lot of &#34;back-and-forth&#34; edges between pairs of vertices.
+
+The lecture notes also mention that $$R$$ is antisymmetric iff for vertices $$a, b \in G$$ we have both $$(a, b) \notin G$$ and $$(b, a) \notin G$$. 
+yeah the way around this would be to case based on the number of drives with music remaining, but this is quite challenging and time consuming to do, which is why we &#34;reverse&#34; the procedure. It probably still is possible to solve it by case work and just use the addition rule at the end. I&#39;ll think about this some more and maybe try to sketch up a solution if I find the time.
+I think I&#39;ve heard something about planar graphs being related to a sphere in 3D space by triangulation. Haven&#39;t read up on this recently, but it might be something worthwhile to check out. I think I&#39;m just a little bit confused as to how you are translating the planar graph to 3D space. Can you go into the process of making the tree a &#34;sphere-like object&#34;.
+
+There are many other TAs that have better expertise in this subject than myself, so they may be able to chime in. If explaining it via text proves to be too difficult, I am holding office hours on Monday evening and would love for you to come by and explain this to me. 
+@1837
+If you are looking for the review session that we had prior to midterm 1, then refer to @988. If you are looking for the review session where we reviewed the first exam, then it is available under the class recordings in Canvas. It should be accessible without a password, but if not, then let me know and I can try to figure something out.
+@1723 provides the solutions for the second exam. I don&#39;t believe that we release a blank version of the exam. So if you really wanted to practice it, you can use the link posted in @1723 and cover up the solutions as you go through it
+Yes I believe this is true.
+examples can be used to prove existence
+The first line is using the law of total expectation. For the second line, we have that $$Pr[Y = 1] = p$$ because that is the probability of success on the first trial. In the case that the first trial was successful, we stop with the procedure, and we have $$X = 1$$. So that would mean $$E[X] = 1$$ and $$E[X^2] = 1$$. 
+
+If the first trial was unsuccessful, then we have $$Y = 0$$, and this occurs with probability $$(1-p)$$. Then we &#34;ignore&#34; this trial, and consider the expected number of trials to get a success, but we add one for the failed trial that we just had, so we have $$E[X^2 | Y = 0] = E[(X+1)^2]$$. 
+
+Substitution of the above quantities gives the second line.
+I don&#39;t think that Ramsey numbers will be covered in any of these review sessions. If you happen to have a question regarding Ramsey numbers, feel free to post it on Piazza or attend office hours.
+In the majority of cases (please note how I am not specifying the magnitude of this majority), a blank answer will lose at least as many points as an incorrect answers.
+I think this is just a mistake in the lecture notes in that something (probably the second paragraph) was supposed to be deleted.
+The algebra is a bit off. It should expand to $$E[A^2] -2E[AB] + E[B^2] - E[A]^2 + 2E[AB] - E[B]^2 = E[A^2] - E[A]^2 + E[B^2] - E[B]^2 \neq 0$$
+Because $$p$$ is defined to be the smallest prime factor of $$n$$. Since $$q_1$$ and $$q_2$$ are also both prime factors of $$n$$, we must have $$q_1 \geq p$$ and $$q_2 \geq p$$. So then $$q_1 \cdot q_2 \cdot m \geq p \cdot p \cdot m = p^2 \cdot m$$
+3: sure. A bit of additional justification of why the colors alternate would also be good to include, but this type of approach would probably be okay.
+
+9b: yeah it&#39;s essentially the memoryless property (very similar to what we did in HW14H Q2)
+$$H$$ is a binomial random variable and the variance of a binomial random variable $$X$$ is given by $$Var[X] = np(1-p)$$. So in the context of the problem we have $$n = 100$$ trials, and $$p = \frac12 = 0.5$$
+$$Pr[n=2]$$ can be calculating the probability that you do not get the candy bar you like on the first trial multiplied with the probability that you get it on the second trial. 
+
+There is a $$\frac{10}{11}$$ chance of not getting the candy bar you like on the first trial. After this, the candy bar you have received has run out in the vending machine, so there are only 10 candy bars left, one of which is your favorite. So the probability that you get your favorite candy bar on the second trial is $$\frac{1}{10}$$. So we have $$Pr[n=2] = \frac{10}{11} \cdot \frac{1}{10} = \frac{1}{11}$$.
+
+You can use this same process for all values of $$k$$, and see that it is always true that $$Pr[n = k] = \frac{1}{11}$$.
+
+Another way of arguing the probability is by considering the sample space being permutations of the candy bars. The event of interest is that the candy bar you like is in the $$k$$th position. The cardinality of the sample space is $$11!$$. The cardinality of the event set is $$1 \cdot (11-1)! = 10!$$. So the probability of the event is $$\frac{10!}{11!} = \frac{1}{11}$$
+Can you point me to which example you are looking at where we augmented a planar graph?
+$$H(n)$$ is acceptable closed form. Anything from class is fair game for the final.
+Yeah I think following the proof format of how we proved $$\sqrt{2}$$ is irrational for this problem would be kind of tough (mostly because the multiplicity of 2 in 40’s prime factorization is not 1). The way I would go about proving this is noting that $$\sqrt{40 = 2\sqrt{10}$$ and then showing that $$\sqrt{10} is irrational (which is easier to do). Finally you can conclude that an irrational multiplied with a non-zero rational is irrational.
+$$E[X] = \sum_{j=0}^{\infty} j \cdot Pr[X = j] = \sum_{j=1}^{\infty} \sum_{i=1}^j Pr[X = j] = \sum_{i = 1}^{\infty} \sum_{j=1}^{\infty} Pr[X = j] = \sum_{i=1}^{\infty} Pr[X \geq i]$$
+We’re counting the amount of edges two ways. In one way, we count the number of edges as $$n|A|$$. In the other way we show the number of edges is $$\leq n|N_G(A)|$$. So $$n|A| = edges \leq n|N_G(A)|$$ which means $$n|A| \leq n|N_G(A)|$$
+$$E[X_i]$$ was previously calculated to be $$\frac12$$, so the second term of $$E[X_i]^2 = (\frac12)^2$$. For the first term, we note that $$X_i$$ takes on the values of $$0, 1$$ or $$2$$. This means that $$X_i^2$$ takes on one of the values from the set $$\{0^2, 1^2, 2^2\} = \{0, 1, 4\}$$. 
+
+We have $$E[X_i^2] = \sum_k k \cdot Pr[X_i^2 = k] = 0 \cdot Pr[X_i^2 = 0] + 1 \cdot Pr[X_i^2 = 1] + 4 \cdot Pr[X_i^2 = 4] = Pr[X_i^2 = 1] + 4 \cdot Pr[X_i^2 = 4]$$.
+
+For $$X_i^2 = 1$$, we need $$X_i = 1$$, and that occurs with probability $$\frac16$$. Similarly, for $$X_i^2 = 4$$, we need $$X_i = 2$$ and that occurs with probability $$\frac16$$. Plug back in, and you&#39;re good to go.
+$$Pr[HT] = p \cdot (1-p)$$. 
+$$Pr[TH] = (1-p) \cdot p$$
+
+So $$Pr[HT \vee TH] = p\cdot (1-p) + (1-p) \cdot p = 2\cdot p \cdot (1-p)$$
+Removing an endpoint ensures that we have an independent set. You can find that p=1/d maximizes the quantity by taking the partial derivative with respect to p, and set that result equal to 0 and solve for p. We will not expect you to do something like this on the final.
+Se @1899 for the first question. For the second question, $$\sum_{k=1}^11 k = 1 + 2 + 3 + ... + 11$$. 
+
+The sum of the first $$n$$ positive integers is given by $$\frac{n \cdot (n+1)}{2}$$. So the sum is $$\frac{11 \cdot 12}{2}$$
+Yeah I think so
+The sample space is not uniform with stars and bars
+resolved
