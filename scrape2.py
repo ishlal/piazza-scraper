@@ -66,11 +66,16 @@ def analyze_child(i, ishaan_id):
         response = i['subject']
         print(response)
 
+
+def clean_html(text):
+    import re
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text)
 # i - json object of stuff
 # main_q - main question?
 # print - boolean representing whether or not to print the thingy
 # returns true/false
-def analyze_child_enh(i, ishaan_id, main_post, printer, f, post_num, folder):
+def analyze_child_enh(i, ishaan_id, main_post, printer, f, post_num, folder, ish):
     global printed_thingy
     if i['type'] == 'i_answer':
         # check if response is from ishaan?
@@ -89,6 +94,8 @@ def analyze_child_enh(i, ishaan_id, main_post, printer, f, post_num, folder):
             timeanswered = i['history'][i['history_size']-1]['created']
             time_to_ans = datetime.strptime(timeanswered, "%Y-%m-%dT%H:%M:%SZ") - datetime.strptime(timeposted, "%Y-%m-%dT%H:%M:%SZ")
             printed_thingy = True
+            ish.write(clean_html(instructor_answer))
+            ish.write('\n')
             f.write("<article class=\"general-box\">")
             f.write("\n")
             f.write("<p>Post: " + str(post_num) + "</p>")
@@ -115,21 +122,47 @@ def analyze_child_enh(i, ishaan_id, main_post, printer, f, post_num, folder):
     if i['type'] == 'followup':
         followup_content = i['subject']
         followup_responses = i['children']
+
+        ####### THIS WORKS ###########
         if printer:
             f.write("<article class=\"question\">\n")
             f.write(followup_content)
             f.write('\n')
             f.write("</article>\n")
             for j in followup_responses:
-                printer = analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder)
+                printer = analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder, ish)
+        #############################
+
+
+        # if 'uid' in i.keys():
+        #     # can change to if printer and i['uid'] == ishaan_id
+        #     if printer:
+        #         f.write("<article class=\"answer\"\n")
+        #         f.write(followup_content)
+        #         f.write('\n')
+        #         f.write("</article>\n")
+        #         for j in followup_responses:
+        #             analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder)
+        # elif printer:
+        #     f.write("<article class=\"question\">\n")
+        #     f.write(followup_content)
+        #     f.write('\n')
+        #     f.write("</article>\n")
+        #     for j in followup_responses:
+        #         analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder)
+
+
         # if printer and i['uid'] != ishaan_id:
         #     f.write("<article class=\"question\">\n")
         #     f.write(followup_content)
         #     f.write('\n')
         #     f.write("</article>\n")
         #     print(followup_content)
-        #     for j in followup_responses:
-        #         analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder)
+        #     if len(followup_responses > 0):
+        #         for j in followup_responses:
+        #             analyze_child_enh(j, ishaan_id, followup_content, printer, f, post_num, folder)
+        #     else:
+        #         f.write("</article>\n")
         #     # f.write("</article>\n")
         # elif printer:
         #     f.write("<article class=\"answer\">\n")
@@ -143,36 +176,56 @@ def analyze_child_enh(i, ishaan_id, main_post, printer, f, post_num, folder):
     if i['type'] == 'feedback':
         response = i['subject']
         print(i)
-
-        # if printer:
-        #     f.write("<article class=\"answer\">\n")
-        #     f.write(response)
-        #     f.write('\n')
-        #     f.write("</article>\n")
-
-        if printer and i['uid'] == ishaan_id:
+        ################ THIS WORKS ####################
+        if printer:
             f.write("<article class=\"answer\">\n")
             f.write(response)
             f.write('\n')
             f.write("</article>\n")
-            print(response)
-        elif printer:
-            f.write("<article class=\"question\">\n")
-            f.write(response)
-            f.write('\n')
-            f.write("</article>\n")
+        ################################################
+
+
+        # if 'uid' in i.keys():
+        #     if printer:
+        #         f.write("<article class=\"answer\">\n")
+        #         f.write(response)
+        #         f.write('\n')
+        #         f.write("</article>\n")
+        # elif printer:
+        #     f.write("<article class=\"question\">\n")
+        #     f.write(response)
+        #     f.write('\n')
+        #     f.write("</article>\n")
+
+        # if printer and i['uid'] == ishaan_id:
+        #     f.write("<article class=\"answer\">\n")
+        #     f.write(response)
+        #     f.write('\n')
+        #     f.write("</article>\n")
+        #     print(response)
+        # elif printer:
+        #     f.write("<article class=\"question\">\n")
+        #     f.write(response)
+        #     f.write('\n')
+        #     f.write("</article>\n")
         return printer
     return False # may not be needed?
 
 
-def analyze_post(piazza, ishaan_id, f):
+def analyze_post(piazza, ishaan_id, f, ish):
+    # allPosts = []
+    # with open("posts.json") as f2:
+    #     for jsonObj in f2:
+    #         currPost = json.loads(jsonObj)
+    #         allPosts.append(currPost)
+    allPosts = get_all_posts(piazza)
     global printed_thingy
     # NEED TO ANALYZE POST @81
-    for j in range(1, 1925):
+    for j in range(0, 1925):
         printed_thingy = False
         try:
-            post = piazza.content_get(j) #1919 also good to test
-
+            # post = piazza.content_get(j) #1919 also good to test
+            post = allPosts[j]
             folder = post['folders'][len(post['folders'])-1]
             main_post = post['history'][post['history_size']-1]
             main_question = main_post['content']
@@ -185,26 +238,33 @@ def analyze_post(piazza, ishaan_id, f):
             else:
                 printer = True
             for i in children:
-                printer = analyze_child_enh(i, ishaan_id, main_post, printer, f, j, folder)
+                printer = analyze_child_enh(i, ishaan_id, main_post, printer, f, j, folder, ish)
             if printed_thingy:
                 f.write("</article>\n")
             f.write('\n')
             print('\n')
-            time.sleep(2)
+            # time.sleep(2)
         except:
             continue
 
 def get_counts(piazza):
+    # allPosts = []
+    # with open("posts.json") as f2:
+    #     for jsonObj in f2:
+    #         currPost = json.loads(jsonObj)
+    #         allPosts.append(currPost)
+    allPosts = get_all_posts(piazza)
     counts = {}
     for i in piazza.get_all_users():
         counts[i['id']] = 0
-    for j in range(1, 1925):
+    for j in range(0, 1925):
         try:
-            post = piazza.content_get(j)
+            # post = piazza.content_get(j)
+            post = allPosts[j]
             for i in post['change_log']:
                 if 'uid' in i:
                     counts[i['uid']]+=1
-            time.sleep(2)
+            # time.sleep(2)
         except:
             continue
     translate(piazza, counts)
@@ -219,12 +279,40 @@ def translate(piazza, old_counts):
     for i in old_counts:
         translation[ids_to_name[i]] = old_counts[i]
     translation = {k:v for k, v in sorted(translation.items(), key=lambda item: -item[1])}
+    tas = ['Rajiv Gandhi', 'Bethany Hsiao', 'Krish Shah', 'David Xu', 'Weilin Hu', 
+        'Sachin Thaker', 'Ethan Chee', 'Darren Chen', 'Nathan Chen', 'Winnie Dong', 'Charis Gao',
+        'Jack Hourigan', 'Serena Huang', 'Rashmi Iyer', 'Andrew Jiang', 'Ishaan Lal', 'Karen Li',
+        'Paul Loh', 'Zoe Lu', 'Elisa Luo', 'Saurabh Mallela', 'Sana Manesh', 'Ryan Morris', 
+        'Sneha Patel', 'Tien Pham', 'Selina Qiu', 'Dilini Sulakna Ranaweera', 'Helen Rudoler', 
+        'Ananya Singhal', 'Ethan Soloway', 'Ria Subramanian', 'Gabrielle Tran', 'Katherine Wang', 
+        'Max Wang', 'Brian Williams', 'Sara Xin', 'Kyle Xiong', 'Cindy Yang', 'Eric Zhao',
+        'Mike Zhou', 'Kristina Znam']
+    ta_counts = {}
+    for ta in tas:
+        ta_counts[ta] = translation[ta]
+    ta_counts = {k:v for k, v in sorted(ta_counts.items(), key=lambda item: -item[1])}
     print(json.dumps(translation, indent=4))
     json_obj = json.dumps(translation, indent=4)
     # f2 = open("counts.txt", "w")
+
     with open("counts.txt", "w") as outfile:
         outfile.write(json_obj)
 
+    tas_obj = json.dumps(ta_counts, indent=4)
+    with open("TAs_counts.txt", "w") as out:
+        out.write(tas_obj)
+
+def get_all_posts(piazza):
+    allPosts = []
+    with open("posts.json") as f:
+        for jsonObj in f:
+            currPost = json.loads(jsonObj)
+            allPosts.append(currPost)
+    return allPosts
+
+def my_analysis(piazza):
+    allPosts = get_all_posts(piazza)
+    print(json.dumps(allPosts[618], indent=4))
 
 # def get_ishaan_id(piazza, ishaan_id):
 #     for i in piazza.get_all_users():
@@ -235,9 +323,11 @@ def translate(piazza, old_counts):
 
 if __name__ == "__main__":
     f = open("piazza.txt", "w")
+    ish = open("ishaan.txt", "w")
     piazza = None
     ishaan_id = 0
     piazza = connect_piazza(piazza)
     ishaan_id = get_ishaan_id(piazza, ishaan_id)
-    analyze_post(piazza, ishaan_id, f)
-    get_counts(piazza)
+    analyze_post(piazza, ishaan_id, f, ish)
+    # get_counts(piazza)
+    # my_analysis(piazza)
