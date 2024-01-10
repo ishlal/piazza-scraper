@@ -34,7 +34,7 @@ from datetime import datetime
 printed_thingy = False
 
 def connect_piazza(piazza):
-    piazza = PiazzaRPC("l6vqf2f5p8e6c1")
+    piazza = PiazzaRPC("lkj22ith9gvsl")
     piazza.user_login() #can pass in credentials as parameters
     return piazza
 
@@ -221,7 +221,7 @@ def analyze_post(piazza, ishaan_id, f, ish):
     allPosts = get_all_posts(piazza)
     global printed_thingy
     # NEED TO ANALYZE POST @81
-    for j in range(0, 1925):
+    for j in range(0, 1168):
         printed_thingy = False
         try:
             # post = piazza.content_get(j) #1919 also good to test
@@ -247,6 +247,15 @@ def analyze_post(piazza, ishaan_id, f, ish):
         except:
             continue
 
+def get_ishaan_q_and_a(piazza, ishaan_id):
+    allPosts = get_all_posts(piazza)
+    for j in range(12, 13):
+        try:
+            post = allPosts[j]
+            print(json.dumps(post, indent=4))
+        except:
+            continue
+
 def get_counts(piazza):
     # allPosts = []
     # with open("posts.json") as f2:
@@ -257,14 +266,14 @@ def get_counts(piazza):
     counts = {}
     for i in piazza.get_all_users():
         counts[i['id']] = 0
-    for j in range(0, 1925):
+    for j in range(0, 1168):
         try:
-            # post = piazza.content_get(j)
+            post = piazza.content_get(j)
             post = allPosts[j]
             for i in post['change_log']:
                 if 'uid' in i:
                     counts[i['uid']]+=1
-            # time.sleep(2)
+            time.sleep(2)
         except:
             continue
     translate(piazza, counts)
@@ -279,15 +288,18 @@ def translate(piazza, old_counts):
     for i in old_counts:
         translation[ids_to_name[i]] = old_counts[i]
     translation = {k:v for k, v in sorted(translation.items(), key=lambda item: -item[1])}
-    tas = ['Rajiv Gandhi', 'Bethany Hsiao', 'Krish Shah', 'David Xu', 'Weilin Hu', 
-        'Sachin Thaker', 'Ethan Chee', 'Darren Chen', 'Nathan Chen', 'Winnie Dong', 'Charis Gao',
-        'Jack Hourigan', 'Serena Huang', 'Rashmi Iyer', 'Andrew Jiang', 'Ishaan Lal', 'Karen Li',
-        'Paul Loh', 'Zoe Lu', 'Elisa Luo', 'Saurabh Mallela', 'Sana Manesh', 'Ryan Morris', 
-        'Sneha Patel', 'Tien Pham', 'Selina Qiu', 'Dilini Sulakna Ranaweera', 'Helen Rudoler', 
-        'Ananya Singhal', 'Ethan Soloway', 'Ria Subramanian', 'Gabrielle Tran', 'Katherine Wang', 
-        'Max Wang', 'Brian Williams', 'Sara Xin', 'Kyle Xiong', 'Cindy Yang', 'Eric Zhao',
-        'Mike Zhou', 'Kristina Znam']
+    tas = ['Rajiv Gandhi', 'Ishaan Lal', 'Andrew Jiang', 'Rashmi Iyer', 'Elisa Luo',
+           'Harish Balasubramanian', 'Darren Chen', 'Luna Chen', 'Nathan Chen',
+           'Aaron Jiang', 'Alexandra Oh', 'Cindy Yang', 'Claire Lu', 'Dilini Ranaweera',
+           'Eric Zhao', 'Ethan Soloway', 'Ethan Weisberg', 'Gabrielle Tran', 'Hasit Nanda',
+           'Helen Rudoler', 'Jason Liu', 'Karen Li', 'Megan Yang', 'Michael Tesfaye', 
+           'Ria Subramanian', 'Richard Zhang', 'Sam Ngiam', 'Sana Manesh', 'Sara Xin',
+           'Saurabh Mallela', 'Selina Qiu', 'Shaurya Singhi', 'Sidhant Srivastava',
+           'Suzanna Wang', 'Thomas Li', 'Thomas Zeuthen', 'Victor Zhu', 'Winnie Dong',
+           'Winston Chen', 'Yijia Li'
+           ]
     ta_counts = {}
+    print(translation)
     for ta in tas:
         ta_counts[ta] = translation[ta]
     ta_counts = {k:v for k, v in sorted(ta_counts.items(), key=lambda item: -item[1])}
@@ -304,7 +316,7 @@ def translate(piazza, old_counts):
 
 def get_all_posts(piazza):
     allPosts = []
-    with open("posts.json") as f:
+    with open("posts23.json") as f:
         for jsonObj in f:
             currPost = json.loads(jsonObj)
             allPosts.append(currPost)
@@ -322,12 +334,14 @@ def my_analysis(piazza):
 
 
 if __name__ == "__main__":
-    f = open("piazza.txt", "w")
-    ish = open("ishaan.txt", "w")
+    f = open("piazzas23.txt", "w")
+    ish = open("ishaa23.txt", "w")
     piazza = None
     ishaan_id = 0
     piazza = connect_piazza(piazza)
     ishaan_id = get_ishaan_id(piazza, ishaan_id)
-    analyze_post(piazza, ishaan_id, f, ish)
+    # analyze_post(piazza, ishaan_id, f, ish)
+    print('getting counts')
     # get_counts(piazza)
     # my_analysis(piazza)
+    get_ishaan_q_and_a(piazza, ishaan_id)

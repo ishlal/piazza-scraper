@@ -11,12 +11,12 @@ import pandas as pd
 from datetime import datetime 
 
 if __name__ == "__main__":
-    piazza = PiazzaRPC("l6vqf2f5p8e6c1")
+    piazza = PiazzaRPC("lcl4gb87auz59s")
     piazza.user_login() # can pass in credentials as parameters
     for j in range(1, 1925):
         try:
             post = piazza.content_get(j)
-            with open("posts.json", "a") as out:
+            with open("posts23.json", "a") as out:
                 json.dump(post, out)
                 out.write("\n")
                 time.sleep(2)

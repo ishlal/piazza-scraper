@@ -14,14 +14,14 @@ from datetime import datetime
 #if __name__ == "__main__":
 
 def csvstuff():
-    p = PiazzaRPC("l6vqf2f5p8e6c1")
+    p = PiazzaRPC("lkj22ith9gvsl")
     p.user_login()
     
     # put in for loop
     try:
         post = p.content_get(10)
         cols = post.keys()
-        csv_file = "piazza.csv"
+        csv_file = "piazzas23.csv"
         try:
             with open(csv_file, 'w') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=cols)
@@ -52,14 +52,14 @@ def csvstuff():
         pass
 
 def dostuff():
-    p = PiazzaRPC("l6vqf2f5p8e6c1")
+    p = PiazzaRPC("lkj22ith9gvsl")
     p.user_login() # can pass in credentials as parameters
     ishaan_id = 0
     for i in p.get_all_users():
         if i['name'] == 'Ishaan Lal':
             ishaan_id = i['id']
 
-    for j in range(1, 1000):
+    for j in range(1, 1678):
         try:
             post = p.content_get(j)
             # print(json.dumps(post, indent = 4))
@@ -151,9 +151,9 @@ def dostuff():
 
 def getstats():
     #p = PiazzaRPC("l6vqf2f5p8e6c1")
-    p = Piazza("l6vqf2f5p8e6c1")
+    p = Piazza("lkj22ith9gvsl")
     p.user_login() #can pass in credentials as parameters
-    network = p.network("l6vqf2f5p8e6c1")
+    network = p.network("lkj22ith9gvsl")
     stats = network.get_statistics()
     print(stats)
         
